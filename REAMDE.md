@@ -32,23 +32,40 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Suppliers to DIY Builders
 
+- [AVC RIG](https://avcrig.com/) - Ready to install subfloors, roof racks and
+  other DIY build components
+- [CR Laurence](https://www.crlaurence.com) - Windows for your van build
+  (Use the search)
 - [DIY Van](https://diyvan.com/collections/transit) - run by Hein, DIY Van has
   several great products such as roof adapters for Maxxfans, Thinsulate, etc..
   [Hein is also very active on Ford Transit USA Forum](https://www.fordtransitusaforum.com/members/hein.6394/).
+- [Forscan](https://forscan.org/) - FORScan is an ODB-ii software scanner for
+  Ford (and other makes) of vehicles which lets you customize your van's
+  computer configuration.
+- [Strawfoot Handmade](https://strawfoothandmade.com/products/window-covers-ford-transit-van-medium-high-roof) -
+  Interior window covers.
+- [Stelletek ](https://www.stelletek.com/store) - Interior window covers.
+- [Thunderbolt Deadbolts](https://www.thunderboltlocks.com/ford-transit) - add deadbolts to
+  your cab, slider and rear doors.
+- [Tern Overland](https://www.ternoverland.com/) - Windows, roof hatches, doors
+  and other components for van builds.
+- [Van Essentials](https://www.vanessential.com/) - Interior window covers.
 
 ## Suspension and Lifts
 
 - [Quigley QLift](https://www.quigley4x4.com/products/qlift/) - "The QLift is a
   specialty 2” lift that is designed to maintain factory angles on the Ford
   Transit’s driveline."
+- [Van Compass](https://vancompass.com/) - Has lift kits for AWD and RWD
+  Transits as well as bumper upgrades and other accessories.
 
 
 ## Van Builds and Builders
 
 - [Farout Ride](https://faroutride.com/) - Very well documented van build with
   some paywall content as well.
-- [Humble Road](https://www.humbleroad.tv/) and [YouTube](https://www.youtube.com/c/HumbleRoad)
-  Excellent video content on builds for his build to order van business.
+- [Humble Road](https://www.humbleroad.tv/) - Excellent video content [YouTube](https://www.youtube.com/c/HumbleRoad)
+  from their build to order van business.
 
 ## Wheels and Tires
 
