@@ -89,3 +89,8 @@ categorize the links properly.
 
 **Lifted Ford Transit**
 *(mention if you had to also make other modifications)*
+
+- [Black Rhino Sequoia](https://www.blackrhinowheels.com/off-road-wheels-rims-sequoia.php) -
+  "The Sequoia wheel is Black Rhino's first offering for the 2020+ AWD Transit and intended
+  to be an aggressive 16x8" +60 fitment. Black Rhino Sequoia for Ford Transit AWD requires
+  a 2 inch lift, minor trimming, and a 245/75R16 tire is recommended."
