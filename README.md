@@ -9,6 +9,9 @@ Please follow the [contributing guide](contributing.md) and
 - [Awesome Ford Transit](#awesome-ford-transit)
   - [Community](#community)
   - [Dealers](#dealers)
+  - [Heating and Air Conditioning](#heating-and-air-conditioning)
+  - [Interior Components](#interior-components)
+  - [Plumbing](#plumbing)
   - [Suppliers to DIY Builders](#suppliers-to-diy-builders)
   - [Suspension and Lifts](#suspension-and-lifts)
   - [Van Builds](#van-builds)
@@ -31,11 +34,34 @@ Please follow the [contributing guide](contributing.md) and
   - [Evergreen Ford](https://www.evergreenford.com/) - Chris Reade is the
     internet contact and good to work with.
 
+## Heating and Air Conditioning
+
+- [EsparParts.com](https://esparparts.com/espar-m2b4l-commercial-ford-transit-p-25562.html) -
+  Transit Espar kit
+- [HEATSO](https://www.heatso.com/ford-transit-heaters/) - Transit Webasto and
+  Espar kits
+
+## Interior Components
+
+- [Laguna Table Mounts](https://www.lagunusa.com/) - "The" hashtag vanlife
+  adjustable table
+- [Paradigm Van Conversions](https://www.paradigmvanconversions.com/shop/Ford-Trasit-Lagun-Table-B-Pillar-Adapter-p366112059) -
+  Laguna B-Pillar bracket
+- [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount) -
+  Laguna B-Pillar bracket
+
+## Plumbing
+
+- [Gregoryx's research on compatible undermount tanks](https://www.fordtransitusaforum.com/threads/nw-conversions-water-tank-wastes-12-gallons-when-used-in-a-transit.90361/#post-1184317)
+  in FTUSAForum
+
 ## Suppliers to DIY Builders
 
 - [Adventure Van Company](https://diyadventurevanco.com/collections/2015-ford-transit-insulating-window-curtains) -
   "Custom tailored curtains sized to fit most 2015+ Ford Transit Vans" as well
   as other accessories.
+- [Agile Off Road](https://agileoffroad.com/product-category/ford-transit-parts/) -
+  wide range of Transit vehicle mods and camper components
 - [AVC RIG](https://avcrig.com/) - Ready to install subfloors, roof racks and
   other DIY build components
 - [CR Laurence](https://www.crlaurence.com) - Windows for your van build
@@ -48,13 +74,13 @@ Please follow the [contributing guide](contributing.md) and
   computer configuration.
 - [Luno](https://lunolife.com/) - Among the Transit specific products Luno makes a front seat inflatable
    mattress and front door screens as well as many other van accessories.
-- [Overland Gear Guy](https://overlandgearguy.com/collections/ford-transit-van) - Window screens and
-  many different Transis specific storage bags
+- [Overland Gear Guy](https://overlandgearguy.com/collections/ford-transit-van) -
+  Window screens and many different Transis specific storage bags
 - [Strawfoot Handmade](https://strawfoothandmade.com/products/window-covers-ford-transit-van-medium-high-roof) -
   Interior window covers.
 - [Stelletek ](https://www.stelletek.com/store) - Interior window covers.
-- [Thunderbolt Deadbolts](https://www.thunderboltlocks.com/ford-transit) - add deadbolts to
-  your cab, slider and rear doors.
+- [Thunderbolt Deadbolts](https://www.thunderboltlocks.com/ford-transit) - add
+  deadbolts to your cab, slider and rear doors.
 - [Tern Overland](https://www.ternoverland.com/) - Windows, roof hatches, doors
   and other components for van builds.
 - [Van Essentials](https://www.vanessential.com/) - Interior window covers.
@@ -64,19 +90,28 @@ Please follow the [contributing guide](contributing.md) and
 - [Quigley QLift](https://www.quigley4x4.com/products/qlift/) - "The QLift is a
   specialty 2” lift that is designed to maintain factory angles on the Ford
   Transit’s driveline."
+- [Sprinter Store](https://www.sprinterstore.com/ford/) - Despite the name,
+  several suspension and other components
+- [Traxda Lift Kits](https://traxdaliftkits.com/product-category/ford-transit/) -
+  2 different lift options, as [discussed in FTUSAForum](https://www.fordtransitusaforum.com/threads/anyone-try-the-traxda-leveling-lift-kits.78615/)
 - [Van Compass](https://vancompass.com/) - Has lift kits for AWD and RWD
   Transits as well as bumper upgrades and other accessories.
+- [Weldtech Designs](https://weldtecdesigns.com/product/wtd-ford-transit-3-spindle/) -
+  Ford Transit 3″ Spindle lift, as [discussed in the FTUSAForum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
 
 
 ## Van Builds
 
 - [Farout Ride](https://faroutride.com/) - Very well documented van build with
   some paywall content as well.
+- [Greenstello Van 2.0](https://www.greenstello.com/) - Well documented build
+  includuing [Undermount SmartPlug/Aux Solar/Exterior Plug](https://www.greenstello.com/blog/2021-12-13-smartplug-mount/smartplug-mount/)
 
 ## Van Builders
 
-- [Humble Road](https://www.humbleroad.tv/) - Excellent video content [YouTube](https://www.youtube.com/c/HumbleRoad)
-  from their build to order van business.
+- [Humble Road](https://www.humbleroad.tv/) - Excellent video content
+  [YouTube](https://www.youtube.com/c/HumbleRoad) from their build to order van
+  business.
 
 ## Wheels and Tires
 
@@ -93,6 +128,7 @@ categorize the links properly.
 *(mention if you had to also make other modifications)*
 
 - [Black Rhino Sequoia](https://www.blackrhinowheels.com/off-road-wheels-rims-sequoia.php) -
-  "The Sequoia wheel is Black Rhino's first offering for the 2020+ AWD Transit and intended
-  to be an aggressive 16x8" +60 fitment. Black Rhino Sequoia for Ford Transit AWD requires
-  a 2 inch lift, minor trimming, and a 245/75R16 tire is recommended."
+  "The Sequoia wheel is Black Rhino's first offering for the 2020+ AWD Transit
+  and intended to be an aggressive 16x8" +60 fitment. Black Rhino Sequoia for
+  Ford Transit AWD requires a 2 inch lift, minor trimming, and a 245/75R16 tire
+  is recommended."
