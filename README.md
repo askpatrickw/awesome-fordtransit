@@ -9,6 +9,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Awesome Ford Transit](#awesome-ford-transit)
   - [Community](#community)
   - [Dealers](#dealers)
+  - [Exterior Components](#exterior-components)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
   - [Plumbing](#plumbing)
@@ -33,6 +34,11 @@ Please follow the [contributing guide](contributing.md) and
 - Washington
   - [Evergreen Ford](https://www.evergreenford.com/) - Chris Reade is the
     internet contact and good to work with.
+
+## Exterior Components
+
+- [Fiamma Awnings](https://www.fiammausa.com/en/van-conversion) - One of the most
+  popular awning options
 
 ## Heating and Air Conditioning
 
