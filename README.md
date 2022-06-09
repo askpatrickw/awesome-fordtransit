@@ -9,11 +9,13 @@ Please follow the [contributing guide](contributing.md) and
 - [Awesome Ford Transit](#awesome-ford-transit)
   - [Community](#community)
   - [Dealers](#dealers)
+  - [Exterior Components](#exterior-components)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
   - [Plumbing](#plumbing)
   - [Suppliers to DIY Builders](#suppliers-to-diy-builders)
   - [Suspension and Lifts](#suspension-and-lifts)
+  - [Seat Swivels](#seat-swivels)
   - [Van Builds](#van-builds)
   - [Van Builders](#van-builders)
   - [Wheels and Tires](#wheels-and-tires)
@@ -22,6 +24,8 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Ford Transit Forum](https://fordtransit.org/forum/) - UK Site
 - [Ford Transit USA Form](https://www.fordtransitusaforum.com/) - USA Site
+- [Mobile Internet Resource Center](https://www.rvmobileinternet.com/) - Mobile
+  Internet Information for RVers and Cruisers
 
 ## Dealers
 
@@ -34,6 +38,16 @@ Please follow the [contributing guide](contributing.md) and
   - [Evergreen Ford](https://www.evergreenford.com/) - Chris Reade is the
     internet contact and good to work with.
 
+## Exterior Components
+
+- [Fiamma Awnings](https://www.fiammausa.com/en/van-conversion) - One of the most
+  popular awning options
+- [Flatline Van Co](https://flatlinevanco.com/collections/transit) - Racks,
+  ladders, prebuilt cabinets
+- [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/) -
+  windows are manufactured as an aftermarket add-on
+- [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
+
 ## Heating and Air Conditioning
 
 - [EsparParts.com](https://esparparts.com/espar-m2b4l-commercial-ford-transit-p-25562.html) -
@@ -43,8 +57,11 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Interior Components
 
+- [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm) -
+  Many seating and interior components
 - [Laguna Table Mounts](https://www.lagunusa.com/) - "The" hashtag vanlife
   adjustable table
+- [Nautilus Rectracing Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
 - [Paradigm Van Conversions](https://www.paradigmvanconversions.com/shop/Ford-Trasit-Lagun-Table-B-Pillar-Adapter-p366112059) -
   Laguna B-Pillar bracket
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount) -
@@ -76,6 +93,8 @@ Please follow the [contributing guide](contributing.md) and
    mattress and front door screens as well as many other van accessories.
 - [Overland Gear Guy](https://overlandgearguy.com/collections/ford-transit-van) -
   Window screens and many different Transis specific storage bags
+- [Owl Vans](https://owlvans.com/collections/ford-transit) - Several Transit
+  specific items including wheels
 - [Strawfoot Handmade](https://strawfoothandmade.com/products/window-covers-ford-transit-van-medium-high-roof) -
   Interior window covers.
 - [Stelletek ](https://www.stelletek.com/store) - Interior window covers.
@@ -84,9 +103,14 @@ Please follow the [contributing guide](contributing.md) and
 - [Tern Overland](https://www.ternoverland.com/) - Windows, roof hatches, doors
   and other components for van builds.
 - [Van Essentials](https://www.vanessential.com/) - Interior window covers.
+- [Van Upgrades](https://vanupgrades.com) - Many accessories and components
+  including suspension components
 
 ## Suspension and Lifts
 
+- [Active Suspension](https://activesuspension.com/pages/ras) - Roadmaster
+  Active Suspension rear leaf spring suspension upgrade that converts basic
+  “passive” leaf spring suspension to mechanical “active” suspension.
 - [Quigley QLift](https://www.quigley4x4.com/products/qlift/) - "The QLift is a
   specialty 2” lift that is designed to maintain factory angles on the Ford
   Transit’s driveline."
@@ -99,6 +123,14 @@ Please follow the [contributing guide](contributing.md) and
 - [Weldtech Designs](https://weldtecdesigns.com/product/wtd-ford-transit-3-spindle/) -
   Ford Transit 3″ Spindle lift, as [discussed in the FTUSAForum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
 
+## Seat Swivels
+
+- [Alpine Mechanisms](https://alpinemechanisms.com/products/2013-ford-transit-seat-swivel)
+- Amazing Auto Swivel - from [DIYVan](https://diyvan.com/collections/transit/products/swivel-seat-base-by-amazing-auto-inc-for-electric-seats)
+- [Discount Van\Truck Swivels](https://www.discountvantruck.com/transitswivelbases/transitseatadaptersswivels.htm)
+- [Scopema](https://scopema.com/en/) - Swivels and custom seats
+- [SprinterSwivel.ca](https://www.sprinterswivel.ca/swivels/25-96-heavy-duty-seat-swivel-for-chevy-express-1997-2021-ced007cep008.html#/1-make-ford/29-model-transit/38-year-2014_2022/45-side-ftd003driver)
+- [Swivels R Us](https://swivelsrus.com/transit_swivels.php)
 
 ## Van Builds
 
@@ -109,6 +141,8 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Van Builders
 
+- [Everlanders on YouTube](https://www.youtube.com/c/Everlanders/about) - Jason &
+  Kara of the Everlanders with great SIP box and advanced DIY van automation
 - [Humble Road](https://www.humbleroad.tv/) - Excellent video content
   [YouTube](https://www.youtube.com/c/HumbleRoad) from their build to order van
   business.
