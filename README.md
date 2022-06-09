@@ -86,6 +86,8 @@ Please follow the [contributing guide](contributing.md) and
 - [Tern Overland](https://www.ternoverland.com/) - Windows, roof hatches, doors
   and other components for van builds.
 - [Van Essentials](https://www.vanessential.com/) - Interior window covers.
+- [Van Upgrades](https://vanupgrades.com) - Many accessories and components
+  including suspension components
 
 ## Suspension and Lifts
 
