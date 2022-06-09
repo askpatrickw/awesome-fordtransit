@@ -51,6 +51,7 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Laguna Table Mounts](https://www.lagunusa.com/) - "The" hashtag vanlife
   adjustable table
+- [Nautilus Rectracing Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
 - [Paradigm Van Conversions](https://www.paradigmvanconversions.com/shop/Ford-Trasit-Lagun-Table-B-Pillar-Adapter-p366112059) -
   Laguna B-Pillar bracket
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount) -
