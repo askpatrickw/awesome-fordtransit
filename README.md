@@ -89,6 +89,9 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Suspension and Lifts
 
+- [Active Suspension](https://activesuspension.com/pages/ras) - Roadmaster
+  Active Suspension rear leaf spring suspension upgrade that converts basic
+  “passive” leaf spring suspension to mechanical “active” suspension.
 - [Quigley QLift](https://www.quigley4x4.com/products/qlift/) - "The QLift is a
   specialty 2” lift that is designed to maintain factory angles on the Ford
   Transit’s driveline."
