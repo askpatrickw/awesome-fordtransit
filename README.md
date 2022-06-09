@@ -15,6 +15,7 @@ Please follow the [contributing guide](contributing.md) and
   - [Plumbing](#plumbing)
   - [Suppliers to DIY Builders](#suppliers-to-diy-builders)
   - [Suspension and Lifts](#suspension-and-lifts)
+  - [Seat Swivels](#seat-swivels)
   - [Van Builds](#van-builds)
   - [Van Builders](#van-builders)
   - [Wheels and Tires](#wheels-and-tires)
@@ -56,6 +57,8 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Interior Components
 
+- [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm) -
+  Many seating and interior components
 - [Laguna Table Mounts](https://www.lagunusa.com/) - "The" hashtag vanlife
   adjustable table
 - [Nautilus Rectracing Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
@@ -120,6 +123,14 @@ Please follow the [contributing guide](contributing.md) and
 - [Weldtech Designs](https://weldtecdesigns.com/product/wtd-ford-transit-3-spindle/) -
   Ford Transit 3″ Spindle lift, as [discussed in the FTUSAForum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
 
+## Seat Swivels
+
+- [Alpine Mechanisms](https://alpinemechanisms.com/products/2013-ford-transit-seat-swivel)
+- Amazing Auto Swivel - from [DIYVan](https://diyvan.com/collections/transit/products/swivel-seat-base-by-amazing-auto-inc-for-electric-seats)
+- [Discount Van\Truck Swivels](https://www.discountvantruck.com/transitswivelbases/transitseatadaptersswivels.htm)
+- [Scopema](https://scopema.com/en/) - Swivels and custom seats
+- [SprinterSwivel.ca](https://www.sprinterswivel.ca/swivels/25-96-heavy-duty-seat-swivel-for-chevy-express-1997-2021-ced007cep008.html#/1-make-ford/29-model-transit/38-year-2014_2022/45-side-ftd003driver)
+- [Swivels R Us](https://swivelsrus.com/transit_swivels.php)
 
 ## Van Builds
 
