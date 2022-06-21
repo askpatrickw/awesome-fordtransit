@@ -67,6 +67,10 @@ Please follow the [contributing guide](contributing.md) and
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount) -
   Laguna B-Pillar bracket
 
+## Maintenane
+
+- [How to adjust your slider](https://youtu.be/xoy2mQh8gi8) (YouTube)
+
 ## Plumbing
 
 - [Gregoryx's research on compatible undermount tanks](https://www.fordtransitusaforum.com/threads/nw-conversions-water-tank-wastes-12-gallons-when-used-in-a-transit.90361/#post-1184317)
@@ -103,6 +107,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Tern Overland](https://www.ternoverland.com/) - Windows, roof hatches, doors
   and other components for van builds.
 - [Van Essentials](https://www.vanessential.com/) - Interior window covers.
+- [Vanmade Gear](https://vanmadegear.com/) - Interior window covers.
 - [Van Upgrades](https://vanupgrades.com) - Many accessories and components
   including suspension components
 
