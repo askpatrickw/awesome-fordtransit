@@ -54,6 +54,7 @@ Please follow the [contributing guide](contributing.md) and
   Transit Espar kit
 - [HEATSO](https://www.heatso.com/ford-transit-heaters/) - Transit Webasto and
   Espar kits
+- [Rixen's Enterprises, INC.](https://rixens.com/) - Air and Coolant based systems
 
 ## Interior Components
 
