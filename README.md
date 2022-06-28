@@ -108,6 +108,8 @@ Please follow the [contributing guide](contributing.md) and
   and other components for van builds.
 - [Van Essentials](https://www.vanessential.com/) - Interior window covers.
 - [Vanmade Gear](https://vanmadegear.com/) - Interior window covers.
+- [FreedomVanGo's Van Parts Warehouse](https://vanpartswarehouse.com/pages/transit-all-categories) - all kinds of
+  parts
 - [Van Upgrades](https://vanupgrades.com) - Many accessories and components
   including suspension components
 
