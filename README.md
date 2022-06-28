@@ -67,6 +67,8 @@ Please follow the [contributing guide](contributing.md) and
   Laguna B-Pillar bracket
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount) -
   Laguna B-Pillar bracket
+- [Vanlife Collective](https://thevanlifecollective.com/shop/) - Kits for Cabinets, floor trims,
+  headliner shelfs, lifting beds, and more
 
 ## Maintenane
 
