@@ -148,6 +148,7 @@ Please follow the [contributing guide](contributing.md) and
   some paywall content as well.
 - [Greenstello Van 2.0](https://www.greenstello.com/) - Well documented build
   includuing [Undermount SmartPlug/Aux Solar/Exterior Plug](https://www.greenstello.com/blog/2021-12-13-smartplug-mount/smartplug-mount/)
+  and [24V secondary alternator install](https://www.greenstello.com/blog/2022-1-23-24v-alternator/24v-alternator/).
 
 ## Van Builders
 
