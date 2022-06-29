@@ -14,21 +14,23 @@ Nope. That ended in February 2022.
 Unknown at this point. Order now if you want one.
 
 ## Will I get a Ford Transit if I order one?
-There is no gaurantee your order will be built.
+There is no guarantee your order will be built.
 
 ## What options are likely to delay my order?
 That varies from year to year. One thing in 2022 was the power sliders.
 But that doesn't mean it wil be in 2023.
 
-## What do the differnet order priorities?
+## What do the different order priorities mean?
 
 TODO
 
 ## What do the different order status mean?
 
+TODO
+
 ## What updates should I recieve after I place my order?
 Most people receive the following email notifications once the dealer places your order.
-1.  Order Confirmed - Your order has been acknowledged by Ford. You are still not gauranteed
+1.  Order Confirmed - Your order has been acknowledged by Ford. You are still not guaranteed
     to receive a Transit.
 3.  Scheduled for Production & VIN - Your order has been selected to be built. You will also
     you will also a receive a VIN. You are definitely getting your Transit.
@@ -43,22 +45,23 @@ In 2022, these were common and people still received Transits.
 
 TODO
 
-## Should my dealer be collecting a downpayment?
+## Should my dealer be collecting a down payment?
 $1000 down seemed to be common in 2022. 
 
 With no downpayment, there is room for a dealer to try to mess with your order,
-markup the price, etc.. This is NOT common. Ford is trying to crack down on
-dealers who do that. Post on  FordTransitUSAForum.com if this happens to you.
+markup the price, etc.. This is NOT common. Ford is cracking down on
+dealers who try that. Post on [Ford Transit USA Forum](https://www.fordtransitusaforum.com)
+if this is happening to you.
 
 ## Why does my dealer need my license?
 Other than Fleet orders (Amazon, etc..) Ford is currently only building custom
-orders. No dealears are getting Transits unless they are already sold to a customer.
+orders. No dealears are getting Transits unless they are sold to a customer.
 Your license is how Ford is preventing the dealers from cheating.
 
 ## How come my dealer has a Transit for sale?
-Most likely a customer bailed on their order for some reason.
+Most likely a customer bailed on their order for some reason or they cheated.
 
-## Why did the price go up between I orders and I got my VIN?
+## Why did the price go up between when I ordered and I got my VIN?
 Until you are issued a VIN, pricing is not locked in.
 
 ## Can I change my options once I've place my order?
