@@ -18,7 +18,7 @@ There is no guarantee your order will be built.
 
 ## What options are likely to delay my order?
 That varies from year to year. One thing in 2022 was the power sliders.
-But that doesn't mean it wil be in 2023.
+But that doesn't mean it will be in 2023.
 
 ## What do the different order priorities mean?
 
