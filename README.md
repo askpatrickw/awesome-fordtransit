@@ -40,6 +40,8 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Exterior Components
 
+- [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020) -
+  Bumpers and racks
 - [Fiamma Awnings](https://www.fiammausa.com/en/van-conversion) - One of the most
   popular awning options
 - [Flatline Van Co](https://flatlinevanco.com/collections/transit) - Racks,
