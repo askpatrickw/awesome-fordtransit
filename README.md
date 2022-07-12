@@ -22,7 +22,7 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Community
 
-- [Vanlife Events and Meetups Calendar]([url](https://www.vanlifeoutfitters.com/vanlife-events-meetups/))
+- [Vanlife Events and Meetups Calendar](https://www.vanlifeoutfitters.com/vanlife-events-meetups/)
   from Vanlife outfitters
 - [Ford Transit Forum](https://fordtransit.org/forum/) - UK Site
 - [Ford Transit USA Form](https://www.fordtransitusaforum.com/) - USA Site
