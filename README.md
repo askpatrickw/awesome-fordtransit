@@ -28,6 +28,8 @@ Please follow the [contributing guide](contributing.md) and
 - [Ford Transit USA Form](https://www.fordtransitusaforum.com/) - USA Site
 - [Mobile Internet Resource Center](https://www.rvmobileinternet.com/) - Mobile
   Internet Information for RVers and Cruisers
+- [Overland Adventure Rallies](https://overlandadventurerallies.com/)
+- [Overland Expo](https://www.overlandexpo.com/)
 
 ## Dealers
 
