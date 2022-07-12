@@ -113,6 +113,7 @@ Please follow the [contributing guide](contributing.md) and
   deadbolts to your cab, slider and rear doors.
 - [Tern Overland](https://www.ternoverland.com/) - Windows, roof hatches, doors
   and other components for van builds.
+- [Vanlife Outfitters](https://www.vanlifeoutfitters.com/)
 - [Van Essentials](https://www.vanessential.com/) - Interior window covers.
 - [Vanmade Gear](https://vanmadegear.com/) - Interior window covers.
 - [FreedomVanGo's Van Parts Warehouse](https://vanpartswarehouse.com/pages/transit-all-categories) - all kinds of
