@@ -30,7 +30,7 @@ Please follow the [contributing guide](contributing.md) and
   Internet Information for RVers and Cruisers
 - [Overland Adventure Rallies](https://overlandadventurerallies.com/)
 - [Overland Expo](https://www.overlandexpo.com/)
-- [Mechanicse StackExchange](https://mechanics.stackexchange.com/questions/tagged/ford+transit) -
+- [Mechanics StackExchange](https://mechanics.stackexchange.com/questions/tagged/ford+transit) -
   Q&A for mechanical discussions
 
 ## Dealers
