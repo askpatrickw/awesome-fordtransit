@@ -111,6 +111,8 @@ Please follow the [contributing guide](contributing.md) and
   Window screens and many different Transis specific storage bags
 - [Owl Vans](https://owlvans.com/collections/ford-transit) - Several Transit
   specific items including wheels
+- [Rapid3D](https://www.rapid3d.ca/shop) - 3D Scans of your Ford Transit you 
+  can use in making your CAD drawings.
 - [Strawfoot Handmade](https://strawfoothandmade.com/products/window-covers-ford-transit-van-medium-high-roof) -
   Interior window covers.
 - [Stelletek ](https://www.stelletek.com/store) - Interior window covers.
