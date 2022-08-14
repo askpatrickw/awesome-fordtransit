@@ -16,6 +16,7 @@ Please follow the [contributing guide](contributing.md) and
   - [Suppliers to DIY Builders](#suppliers-to-diy-builders)
   - [Suspension and Lifts](#suspension-and-lifts)
   - [Seat Swivels](#seat-swivels)
+  - [Van Automation])(#van-automation)
   - [Van Builds](#van-builds)
   - [Van Builders](#van-builders)
   - [Wheels and Tires](#wheels-and-tires)
@@ -161,6 +162,15 @@ Please follow the [contributing guide](contributing.md) and
 - [Greenstello Van 2.0](https://www.greenstello.com/) - Well documented build
   includuing [Undermount SmartPlug/Aux Solar/Exterior Plug](https://www.greenstello.com/blog/2021-12-13-smartplug-mount/smartplug-mount/)
   and [24V secondary alternator install](https://www.greenstello.com/blog/2022-1-23-24v-alternator/24v-alternator/).
+
+## Van Automation
+
+ - [Using Home Assistant](https://www.fordtransitusaforum.com/threads/home-assistant-for-van-automation.90215/)
+    by Mototreks on Ford Transit USA Forum
+ - [Technical van automation discussion](https://www.fordtransitusaforum.com/threads/van-automation-technical-discussion-only.89007/)
+   started by sYfte on Ford Transit USA Forum
+ - In the spirit of "If I could it over" [tngw1500se discusses using ESP32 and relays](https://www.fordtransitusaforum.com/threads/wiring-if-i-had-it-to-do-over-again.87111/)
+   for wiring automation
 
 ## Van Builders
 
