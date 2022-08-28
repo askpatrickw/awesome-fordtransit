@@ -86,7 +86,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Vanlife Collective](https://thevanlifecollective.com/shop/) - Kits for Cabinets, floor trims,
   headliner shelfs, lifting beds, and more
 
-## Maintenane
+## Maintenance
 
 - [How to adjust your slider](https://youtu.be/xoy2mQh8gi8) (YouTube)
 
