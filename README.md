@@ -55,6 +55,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Flarespace](https://flarespace.com/) - increase interior space by adding "bump outs"
 - [Flatline Van Co](https://flatlinevanco.com/collections/transit) - Racks,
   ladders, prebuilt cabinets
+- GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html) 🇫🇷
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/) -
   windows are manufactured as an aftermarket add-on
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
