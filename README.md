@@ -65,6 +65,8 @@ Please follow the [contributing guide](contributing.md) and
 - [HEATSO](https://www.heatso.com/ford-transit-heaters/) - Transit Webasto and
   Espar kits
 - [Rixen's Enterprises, INC.](https://rixens.com/) - Air and Coolant based systems
+- [Undermount AC](https://undermountac.com/) - Split AC system with the compressor under the van
+  and the evaporator inside the van. Also has an optional hyrdronic heater component.
 
 ## Interior Components
 
