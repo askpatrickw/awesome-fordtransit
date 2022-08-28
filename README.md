@@ -16,7 +16,7 @@ Please follow the [contributing guide](contributing.md) and
   - [Suppliers to DIY Builders](#suppliers-to-diy-builders)
   - [Suspension and Lifts](#suspension-and-lifts)
   - [Seat Swivels](#seat-swivels)
-  - [Van Automation])(#van-automation)
+  - [Van Automation](#van-automation)
   - [Van Builds](#van-builds)
   - [Van Builders](#van-builders)
   - [Wheels and Tires](#wheels-and-tires)
@@ -51,6 +51,7 @@ Please follow the [contributing guide](contributing.md) and
   Bumpers and racks
 - [Fiamma Awnings](https://www.fiammausa.com/en/van-conversion) - One of the most
   popular awning options
+- [Flarespace](https://flarespace.com/) - increase interior space by adding "bump outs"
 - [Flatline Van Co](https://flatlinevanco.com/collections/transit) - Racks,
   ladders, prebuilt cabinets
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/) -
@@ -124,6 +125,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Vanlife Outfitters](https://www.vanlifeoutfitters.com/)
 - [Van Essentials](https://www.vanessential.com/) - Interior window covers.
 - [Vanmade Gear](https://vanmadegear.com/) - Interior window covers.
+- [Vanmart](https://thevanmart.com/) - Many excellent products out of Westminster, CA
 - [FreedomVanGo's Van Parts Warehouse](https://vanpartswarehouse.com/pages/transit-all-categories) - all kinds of
   parts
 - [Van Upgrades](https://vanupgrades.com) - Many accessories and components
