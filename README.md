@@ -22,6 +22,11 @@ Please follow the [contributing guide](contributing.md) and
   - [Van Builders](#van-builders)
   - [Wheels and Tires](#wheels-and-tires)
 
+## Car Wash
+
+- Seattle: [Car Wash Palace - Greenwood  ](https://bestseattlecarwash.com/locations/greenwood/) - The Greenwood locatation has
+  a self wash bar that has no roof and the cleaning arms can reach over your van.
+
 ## Community
 
 - [Vanlife Events and Meetups Calendar](https://www.vanlifeoutfitters.com/vanlife-events-meetups/)
