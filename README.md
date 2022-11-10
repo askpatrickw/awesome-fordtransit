@@ -7,6 +7,7 @@ Please follow the [contributing guide](contributing.md) and
 [code of conduct](code-of-conduct.md).
 
 - [Awesome Ford Transit](#awesome-ford-transit)
+  - [Car Wash](#car-wash)
   - [Community](#community)
   - [Dealers](#dealers)
   - [Exterior Components](#exterior-components)
@@ -17,8 +18,8 @@ Please follow the [contributing guide](contributing.md) and
   - [Suppliers to DIY Builders](#suppliers-to-diy-builders)
   - [Suspension and Lifts](#suspension-and-lifts)
   - [Seat Swivels](#seat-swivels)
-  - [Van Automation](#van-automation)
   - [Van Builds](#van-builds)
+  - [Van Automation](#van-automation)
   - [Van Builders](#van-builders)
   - [Wheels and Tires](#wheels-and-tires)
 
@@ -63,6 +64,11 @@ Please follow the [contributing guide](contributing.md) and
 - GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html) 🇫🇷
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/) -
   windows are manufactured as an aftermarket add-on
+- [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate) -
+Romanian company
+- [Transit Offroad Skid plate](https://transitoffroad.com/skid-plate/)
+- [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate) -
+for intercooler and differential
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
 
 ## Heating and Air Conditioning
@@ -152,6 +158,7 @@ Please follow the [contributing guide](contributing.md) and
   Transit’s driveline."
 - [Sprinter Store](https://www.sprinterstore.com/ford/) - Despite the name,
   several suspension and other components
+- [Transit Offroad Lift klts](transitoffroad) - with and without camber adjustment
 - [Traxda Lift Kits](https://traxdaliftkits.com/product-category/ford-transit/) -
   2 different lift options, as [discussed in FTUSAForum](https://www.fordtransitusaforum.com/threads/anyone-try-the-traxda-leveling-lift-kits.78615/)
 - [Van Compass](https://vancompass.com/) - Has lift kits for AWD and RWD
@@ -182,7 +189,7 @@ Please follow the [contributing guide](contributing.md) and
     by Mototreks on Ford Transit USA Forum
  - [Technical van automation discussion](https://www.fordtransitusaforum.com/threads/van-automation-technical-discussion-only.89007/)
    started by sYfte on Ford Transit USA Forum
- - In the spirit of "If I could it over" [tngw1500se discusses using ESP32 and relays](https://www.fordtransitusaforum.com/threads/wiring-if-i-had-it-to-do-over-again.87111/)
+ - In the spirit of "If I could do it over" [tngw1500se discusses using ESP32 and relays](https://www.fordtransitusaforum.com/threads/wiring-if-i-had-it-to-do-over-again.87111/)
    for wiring automation
 
 ## Van Builders
