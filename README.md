@@ -10,6 +10,7 @@ Please follow the [contributing guide](contributing.md) and
   - [Car Wash](#car-wash)
   - [Community](#community)
   - [Dealers](#dealers)
+  - [Engine Mods](#engine-mods)
   - [Exterior Components](#exterior-components)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
@@ -51,6 +52,10 @@ Please follow the [contributing guide](contributing.md) and
 - Washington
   - [Evergreen Ford](https://www.evergreenford.com/) - Chris Reade is the
     internet contact and good to work with.
+
+## Engine Mods
+
+- [InterMotive](https://intermotive.net/products-2/) - Fast idle system
 
 ## Exterior Components
 
