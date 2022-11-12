@@ -55,7 +55,9 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Engine Mods
 
+- [InPower Electronics](http://www.inpowerelectronics.com/products/high-idle-control) - High idle control
 - [InterMotive](https://intermotive.net/products-2/) - Fast idle system
+
 
 ## Exterior Components
 
