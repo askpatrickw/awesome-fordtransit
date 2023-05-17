@@ -94,7 +94,6 @@ for intercooler and differential
   Transits
 - [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm) -
   Many seating and interior components
-- [Down by The River Curtains](https://www.downbytherivercurtains.com/collections/ford-transit-mid-roof)
 - [Laguna Table Mounts](https://www.lagunusa.com/) - "The" hashtag vanlife
   adjustable table
 - [Nautilus Rectracing Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
