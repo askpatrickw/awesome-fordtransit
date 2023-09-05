@@ -71,6 +71,7 @@ Please follow the [contributing guide](contributing.md) and
 - GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html) 🇫🇷
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/) -
   windows are manufactured as an aftermarket add-on
+-[OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022) - Lots of accessories, windows, racks, visors
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate) -
 Romanian company
 - [Transit Offroad Skid plate](https://transitoffroad.com/skid-plate/)
