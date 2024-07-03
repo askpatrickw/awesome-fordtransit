@@ -77,6 +77,7 @@ Please follow the [contributing guide](contributing.md) and
 Lots of accessories, windows, racks, visors
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
+- [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes and other goodies
 - [Transit Offroad Skid plate](https://transitoffroad.com/skid-plate/)
 - [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
@@ -104,6 +105,8 @@ Lots of accessories, windows, racks, visors
 - [Nautilus Retracting Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
 - [Paradigm Van Conversions](https://www.paradigmvanconversions.com/shop/Ford-Trasit-Lagun-Table-B-Pillar-Adapter-p366112059)
   Laguna B-Pillar bracket
+- [TecVan](https://tecvan.co/collections/shop-transit) Shower pans, tanks and other
+  interior bits
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount)
   Laguna B-Pillar bracket
 - [VANCAMP](https://vanncamp.com/ford-transit-van-accessories/) Window covers
