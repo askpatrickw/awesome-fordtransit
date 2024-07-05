@@ -67,6 +67,8 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020)
   Bumpers and racks
+- [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
+  bumper and skid plate also sells many other mfgs products
 - [Fiamma Awnings](https://www.fiammausa.com/en/van-conversion) One of the most
   popular awning options
 - [Flarespace](https://flarespace.com/) increase interior space by adding "bump outs"
@@ -82,7 +84,8 @@ Lots of accessories, windows, racks, visors
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
   and other goodies
-- [Transit Offroad Skid plate](https://transitoffroad.com/skid-plate/)
+- [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
+  and interior components
 - [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
@@ -113,6 +116,8 @@ Lots of accessories, windows, racks, visors
   interior bits
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount)
   Laguna B-Pillar bracket
+- [Terrawagon](https://www.terrawagen.com/collections/ford-transit) has
+  several ventilation products and an aero hood spoiler
 - [VANCAMP](https://vanncamp.com/ford-transit-van-accessories/) Window covers
 - [Vancillary](https://vancillary.com/collections/ford-transit) Headliner Shelf
   DIY Kit and sliding door stop
@@ -154,7 +159,7 @@ Lots of accessories, windows, racks, visors
 - [Overland Gear Guy](https://overlandgearguy.com/collections/ford-transit-van)
   Window screens and many different Transis specific storage bags
 - [Owl Vans](https://owlvans.com/collections/ford-transit) Several Transit
-  specific items including wheels
+  specific items including lifts, wheels, racks, and the Pismo bumper
 - [Rapid3D](https://www.rapid3d.ca/shop) 3D Scans of your Ford Transit you
   can use in making your CAD drawings.
 - [Strawfoot Handmade](https://strawfoothandmade.com/products/window-covers-ford-transit-van-medium-high-roof)
