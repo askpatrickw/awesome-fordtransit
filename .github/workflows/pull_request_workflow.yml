@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PIP_CACHE_DIR: ""
+      PYTHON_VERSION: "3.12"
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
