@@ -46,5 +46,5 @@ jobs:
         echo "Python: $(python -m pip --version)"
           echo "Pre-commit: $(pre-commit --version)"
 
-      - name: Run pre-commit
-        run: pre-commit run --all-files
+    - name: Run pre-commit
+      run: pre-commit run --all-files
