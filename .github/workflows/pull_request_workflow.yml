@@ -11,17 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PIP_CACHE_DIR: ""
+      PYTHON_VERSION: "3.12"
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-  
+
       - name: Create a Requirements file for Python Packages
         run: |
           echo "pre-commit>=3.7" >> requirements-pr.txt
-  
+
       - name: Get and set pip cache dir
         run: echo "PIP_CACHE_DIR=$(pip cache dir)" >> "$GITHUB_ENV"
-  
+
       - name: Use cached Python dependencies
         uses: actions/cache@v4
         with:
@@ -31,20 +32,20 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements-pr.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
-  
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip' # caching pip dependencies
           cache-dependency-path: '**/requirements-pr.txt'
-  
+
       - run: pip install -r requirements-pr.txt
-  
+
       - name: Log Pre-commit Versions
         run: |
           echo "Python: $(python -m pip --version)"
             echo "Pre-commit: $(pre-commit --version)"
-  
+
       - name: Run pre-commit
         run: pre-commit run --all-files

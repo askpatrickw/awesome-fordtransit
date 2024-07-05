@@ -32,8 +32,9 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Community
 
-- [Vanlife Events and Meetups Calendar](https://www.vanlifeoutfitters.com/vanlife-events-meetups/)
-  from Vanlife outfitters
+- Facebook Groups
+  - [Ford Transit USA Owners](https://www.facebook.com/groups/472339682915770/)
+  - [Ford Transit Camper](https://www.facebook.com/groups/fordtransitcamper)
 - [Ford Transit Forum](https://fordtransit.org/forum/) UK Site
 - [Ford Transit USA Form](https://www.fordtransitusaforum.com/) USA Site
 - [Mobile Internet Resource Center](https://www.rvmobileinternet.com/) Mobile
@@ -42,6 +43,8 @@ Please follow the [contributing guide](contributing.md) and
 - [Overland Expo](https://www.overlandexpo.com/)
 - [Mechanics StackExchange](https://mechanics.stackexchange.com/questions/tagged/ford+transit)
   Q&A for mechanical discussions
+- [Vanlife Events and Meetups Calendar](https://www.vanlifeoutfitters.com/vanlife-events-meetups/)
+  from Vanlife outfitters
 
 ## Dealers
 
@@ -77,7 +80,8 @@ Please follow the [contributing guide](contributing.md) and
 Lots of accessories, windows, racks, visors
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
-- [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes and other goodies
+- [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
+  and other goodies
 - [Transit Offroad Skid plate](https://transitoffroad.com/skid-plate/)
 - [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
