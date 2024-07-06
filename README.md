@@ -69,6 +69,10 @@ Please follow the [contributing guide](contributing.md) and
   Bumpers and racks
 - [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
   bumper and skid plate also sells many other mfgs products
+- [Ex-Guard](https://ex-guard.com/van/ford-transit/)
+  grille guards or bull bars
+- [Fia](https://gofia.com/?term_id=1815&year_id=7639&make=7640&model=7675&post_type=product&action=vpf-ymm-search)
+  Truck grill bug screen which installs in front of your plastic grill
 - [Fiamma Awnings](https://www.fiammausa.com/en/van-conversion) One of the most
   popular awning options
 - [Flarespace](https://flarespace.com/) increase interior space by adding "bump outs"
@@ -76,6 +80,8 @@ Please follow the [contributing guide](contributing.md) and
   prebuilt cabinets
 - GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html)
   🇫🇷
+- [Luverne Truck](https://www.luvernetruck.com/all-products/2022/ford/transit-350/)
+  bull bars, running boards, side and rear steps
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/)
   windows are manufactured as an aftermarket add-on
 - [OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022)
@@ -89,6 +95,8 @@ Lots of accessories, windows, racks, visors
 - [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
+- [Westin Automotive](https://www.westinautomotive.com/hdx-grille-guard/2022/ford/transit-350)
+  Bull bars, running boards, 
 
 ## Heating and Air Conditioning
 
