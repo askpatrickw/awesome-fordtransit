@@ -95,8 +95,8 @@ Lots of accessories, windows, racks, visors
 - [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
-- [Westin Automotive](https://www.westinautomotive.com/hdx-grille-guard/2022/ford/transit-350)
-  Bull bars, running boards, 
+- [Westin Automotive](https://www.westinautomotive.com/products/2022/ford/transit-350)
+  Bull bars, running boards
 
 ## Heating and Air Conditioning
 
