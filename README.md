@@ -85,7 +85,8 @@ Please follow the [contributing guide](contributing.md) and
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/)
   windows are manufactured as an aftermarket add-on
 - [OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022)
-Lots of accessories, windows, racks, visors
+  Lots of accessories, windows, racks, visors
+- [Rigwell](https://rigwell.com/collections/transit) Decorative Wraps and Flarespace
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
@@ -120,6 +121,9 @@ Lots of accessories, windows, racks, visors
 - [Nautilus Retracting Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
 - [Paradigm Van Conversions](https://www.paradigmvanconversions.com/shop/Ford-Trasit-Lagun-Table-B-Pillar-Adapter-p366112059)
   Laguna B-Pillar bracket
+- [Rigwell](https://rigwell.com/collections/transit) Cabinets and galley components
+- [S&B](https://sbfilters.com/pages/search?query=Transit) Several kinds of water
+  tanks
 - [TecVan](https://tecvan.co/collections/shop-transit) Shower pans, tanks and other
   interior bits
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount)
