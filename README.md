@@ -116,6 +116,8 @@ Please follow the [contributing guide](contributing.md) and
   Tablets mounts for Transits
 - [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm)
   Many seating and interior components
+- [Go Code Overland](https://gocodeoverland.com/collections/transit) Blob
+  covers, trim pieces, window trim and flares
 - [Laguna Table Mounts](https://www.lagunusa.com/) "The" hashtag vanlife
   adjustable table
 - [Nautilus Retracting Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
