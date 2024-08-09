@@ -90,7 +90,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
-  and other goodies
+  and other goodies including carbon ski box
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
 - [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
