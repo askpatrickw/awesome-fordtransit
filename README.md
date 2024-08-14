@@ -12,6 +12,7 @@ Please follow the [contributing guide](contributing.md) and
   - [Dealers](#dealers)
   - [Engine Mods](#engine-mods)
   - [Exterior Components](#exterior-components)
+    - [Bumpers](#bumpers)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
   - [Maintenance](#maintenance)
@@ -98,6 +99,21 @@ Please follow the [contributing guide](contributing.md) and
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
 - [Westin Automotive](https://www.westinautomotive.com/products/2022/ford/transit-350)
   Bull bars, running boards
+
+### Bumpers
+
+- [Aluminess Hidden Winch Mount](https://www.aluminess.com/products/hidden-winch-mount-ford-transit-2020/?sku=210547-FS)
+- [Backwoods Adeventure Front and Rear Bumpers](https://backwoodsadventuremods.com/collections/ford-1)
+  - [Scout Front Bumper](https://backwoodsadventuremods.com/products/ford-transit-scout-front-bumper)
+    with and without a winch or lights
+- [CATuned Front Bumper](https://catunedoffroad.com/collections/ford-transit/products/catuned-off-road-transit-bumper)
+- [Owl Vans - Pismo Bumper with winch](https://owlvans.com/collections/ford-transit/products/pismo-bumper-ford-transit)
+- [TecVan - CATuned Off-Road Ford Transit Bumper](https://tecvan.co/products/catuned-off-road-ford-transit-bumper)
+- [Transit Off-Road](https://transitoffroad.com/)
+  - [Heavy Duty Rear Bumper](https://transitoffroad.com/product/hd_rear_bumper/)
+  - [Tubular Full Bumper with light mount
+](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
+- [Van Compass Front Winch](https://vancompass.com/products/front-winch-bumper-hd-compatible-ford-transit-by-van-compass)
 
 ## Heating and Air Conditioning
 
