@@ -142,7 +142,6 @@ Please follow the [contributing guide](contributing.md) and
   - Material: 1/4" steel, Coverage: rear differential, Years: 2015-2022
     [Installation](https://www.youtube.com/watch?v=AL9PEnjYl9E)
 
-
 ## Heating and Air Conditioning
 
 - [EsparParts.com](https://esparparts.com/espar-m2b4l-commercial-ford-transit-p-25562.html)
