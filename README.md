@@ -66,10 +66,14 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Exterior Components
 
+- [Adventure Ready](https://goadventureready.com/search?q=Transit)
+  Intercooler skid plate
 - [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020)
   Bumpers and racks
 - [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
   bumper and skid plate also sells many other mfgs products
+- [Curious Campervans](https://curiouscampervans.com/collections/transit-products)
+  Roof racks
 - [Ex-Guard](https://ex-guard.com/van/ford-transit/)
   grille guards or bull bars
 - [Fia](https://gofia.com/?term_id=1815&year_id=7639&make=7640&model=7675&post_type=product&action=vpf-ymm-search)
@@ -130,6 +134,10 @@ Please follow the [contributing guide](contributing.md) and
 
 - [A-Tach Mounts](https://www.atachmounts.com/Transit-Van_c_100.html) Phone and
   Tablets mounts for Transits
+- [Adventure Ready](https://goadventureready.com/search?q=Transit)
+  Interior molle panels
+- [Curious Campervans](https://curiouscampervans.com/collections/transit-products)
+  Tanks, swivels, window covers, screens, and more
 - [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm)
   Many seating and interior components
 - [Go Code Overland](https://gocodeoverland.com/collections/transit) Blob
@@ -260,6 +268,7 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Everlanders on YouTube](https://www.youtube.com/c/Everlanders/about) Jason &
   Kara of the Everlanders with great SIP box and advanced DIY van automation
+- [Grit Overland](https://gritoverland.com/) Washougal, WA
 - [Humble Road](https://www.humbleroad.tv/) Excellent video content
   [YouTube](https://www.youtube.com/c/HumbleRoad) from their build to order van
   business.
