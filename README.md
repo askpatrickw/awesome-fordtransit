@@ -13,6 +13,7 @@ Please follow the [contributing guide](contributing.md) and
   - [Engine Mods](#engine-mods)
   - [Exterior Components](#exterior-components)
     - [Bumpers](#bumpers)
+    - [Skid Plats](#skid-plates)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
   - [Maintenance](#maintenance)
@@ -119,7 +120,7 @@ Please follow the [contributing guide](contributing.md) and
 ](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
 - [Van Compass Front Winch](https://vancompass.com/products/front-winch-bumper-hd-compatible-ford-transit-by-van-compass)
 
-## Skid Plates
+### Skid Plates
 
 - [CA Tuned](https://catunedoffroad.com/collections/skid-plates/products/catuned-2021-ford-transit-skid-plate?variant=45743703228675)
   Material: 3/16" aluminum, Coverage: Enginee, Years 2021+
