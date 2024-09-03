@@ -134,6 +134,8 @@ Please follow the [contributing guide](contributing.md) and
   and skid plate
 - [Van Compass](https://vancompass.com/products/van-compass-ford-transit-2013-present-rear-high-clearance-shock-extension-brackets)
   Rear shock relocation for 2013+
+- [Transit Offroad](https://transitoffroad.com/product/shock-relocation-kit/)
+  Rear shock relocation for 2015+
 
 ### Skid Plates
 
