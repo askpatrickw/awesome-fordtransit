@@ -132,6 +132,9 @@ Please follow the [contributing guide](contributing.md) and
 - [Owl Vans](https://owlvans.com/products/intercooler-skid-plate-transit-2015-van-compass)
   Material: 3/16" 5052 Aluminum, Coverage:intercooler, intercooler piping
   and engine oil pan, Years: 2015+
+- [Quad Van](https://quadvan.com/transit-accessories)
+  Material: , Coverage: Intercooler, differential, gas
+  tank, and transfer case, Years: ??
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Material: 2-3 mm steel, Coverage: engine and gearbox, Years: 2011-224,
 - [Transit Offroad](https://transitoffroad.com/product/front-skid-plate/)
