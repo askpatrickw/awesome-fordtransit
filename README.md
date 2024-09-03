@@ -13,7 +13,7 @@ Please follow the [contributing guide](contributing.md) and
   - [Engine Mods](#engine-mods)
   - [Exterior Components](#exterior-components)
     - [Bumpers](#bumpers)
-    - [Skid Plats](#skid-plates)
+    - [Skid Plates](#skid-plates)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
   - [Maintenance](#maintenance)
