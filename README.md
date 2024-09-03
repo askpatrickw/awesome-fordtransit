@@ -119,6 +119,30 @@ Please follow the [contributing guide](contributing.md) and
 ](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
 - [Van Compass Front Winch](https://vancompass.com/products/front-winch-bumper-hd-compatible-ford-transit-by-van-compass)
 
+## Skid Plates
+
+- [CA Tuned](https://catunedoffroad.com/collections/skid-plates/products/catuned-2021-ford-transit-skid-plate?variant=45743703228675)
+  Material: 3/16" aluminum, Coverage: Enginee, Years 2021+
+- [Limitless Van](https://www.limitlessvan.com/product-page/ford-transit-intercooler-skid-plate)
+  Material: 3/16" aluminum, Coverage: Intercooler, Years: 2015+
+- [NW Overland](https://northwest-overland.com/product/ford-transit-front-skid-plate-2014-2023-transit-van-150-250-350/)
+  Material: 3/16″ 5052 Aluminum, Coverage: intercooler, oil pan,
+  transmission housing and all water & oil lines, Years: 2014-2023
+- [Owl Vans](https://owlvans.com/products/intercooler-skid-plate-transit-2015-van-compass)
+  Material: 3/16" 5052 Aluminum, Coverage:intercooler, intercooler piping
+  and engine oil pan, Years: 2015+
+- [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
+  Material: 2-3 mm steel, Coverage: engine and gearbox, Years: 2011-224, 
+- [Transit Offroad](https://transitoffroad.com/product/front-skid-plate/)
+  Material: 3/16″ thick 5052 Aluminum, Coverage: Full protection extending
+  to rear cross member, Years: ??, [Installation](https://www.youtube.com/watch?v=LI05DpJQgjQ)
+- [Van Compass](https://vancompass.com/collections/transit-awd/skid-plate)
+  - Material: 3/16" thick 5052 Aluminum, Coverage: Intercooler, Years: 2015+
+    [Installation](https://www.youtube.com/watch?v=hhQWFEPXybY)
+  - Material: 1/4" steel, Coverage: rear differential, Years: 2015-2022
+    [Installation](https://www.youtube.com/watch?v=AL9PEnjYl9E)
+
+
 ## Heating and Air Conditioning
 
 - [EsparParts.com](https://esparparts.com/espar-m2b4l-commercial-ford-transit-p-25562.html)
