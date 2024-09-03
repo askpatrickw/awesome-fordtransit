@@ -132,7 +132,7 @@ Please follow the [contributing guide](contributing.md) and
   Material: 3/16" 5052 Aluminum, Coverage:intercooler, intercooler piping
   and engine oil pan, Years: 2015+
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
-  Material: 2-3 mm steel, Coverage: engine and gearbox, Years: 2011-224, 
+  Material: 2-3 mm steel, Coverage: engine and gearbox, Years: 2011-224,
 - [Transit Offroad](https://transitoffroad.com/product/front-skid-plate/)
   Material: 3/16″ thick 5052 Aluminum, Coverage: Full protection extending
   to rear cross member, Years: ??, [Installation](https://www.youtube.com/watch?v=LI05DpJQgjQ)
