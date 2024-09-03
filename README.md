@@ -13,6 +13,8 @@ Please follow the [contributing guide](contributing.md) and
   - [Engine Mods](#engine-mods)
   - [Exterior Components](#exterior-components)
     - [Bumpers](#bumpers)
+    - [Front Hooks](#front-hooks)
+    - [Rear Shock Relocation](#rear-shock-relocation)
     - [Skid Plates](#skid-plates)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
@@ -119,6 +121,19 @@ Please follow the [contributing guide](contributing.md) and
   - [Tubular Full Bumper with light mount
 ](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
 - [Van Compass Front Winch](https://vancompass.com/products/front-winch-bumper-hd-compatible-ford-transit-by-van-compass)
+
+### Front Hooks
+
+- [Quadvan](https://quadvan.com/transit-accessories) Receiver hooks for pre-2020
+- [Van Compass](https://vancompass.com/products/van-compass-ford-transit-tow-hook-2015)
+  Front tow hook for 2013+
+
+### Rear Shock Relocation
+
+- [Quadvan](https://quadvan.com/transit-accessories) Rear shock relocation
+  and skid plate
+- [Van Compass](https://vancompass.com/products/van-compass-ford-transit-2013-present-rear-high-clearance-shock-extension-brackets)
+  Rear shock relocation for 2013+
 
 ### Skid Plates
 
