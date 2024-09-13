@@ -99,6 +99,8 @@ Please follow the [contributing guide](contributing.md) and
 - [OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022)
   Lots of accessories, windows, racks, visors
 - [Rigwell](https://rigwell.com/collections/transit) Decorative Wraps and Flarespace
+- [Sandy Vans](https://sandyvans.com/collections/exterior-products/products/boost-box)
+  Just the ski box is of interest
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
