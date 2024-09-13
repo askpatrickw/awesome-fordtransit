@@ -101,6 +101,8 @@ Please follow the [contributing guide](contributing.md) and
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
   and other goodies including carbon ski box
+- [Tips Up Rack](https://tipsupracks.com/shop/) Technically not Transit specific
+  but I'm also collecting all the ski carrying options
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
 - [VanCompass skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
