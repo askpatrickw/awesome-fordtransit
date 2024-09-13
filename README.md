@@ -71,6 +71,8 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Adventure Ready](https://goadventureready.com/search?q=Transit)
   Intercooler skid plate
+- [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
+  rear door racks and boxes, including a ski box, side ladder
 - [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020)
   Bumpers and racks
 - [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
@@ -179,6 +181,8 @@ Please follow the [contributing guide](contributing.md) and
   Tablets mounts for Transits
 - [Adventure Ready](https://goadventureready.com/search?q=Transit)
   Interior molle panels
+- [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
+  Bed platform
 - [Curious Campervans](https://curiouscampervans.com/collections/transit-products)
   Tanks, swivels, window covers, screens, and more
 - [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm)
