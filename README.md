@@ -74,7 +74,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020)
   Bumpers and racks
 - [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
-  bumper and skid plate also sells many other mfgs products
+  bumper and skid plate also sells many other manufacturers products
 - [Curious Campervans](https://curiouscampervans.com/collections/transit-products)
   Roof racks
 - [Ex-Guard](https://ex-guard.com/van/ford-transit/)
@@ -101,7 +101,7 @@ Please follow the [contributing guide](contributing.md) and
   and other goodies including carbon ski box
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
-- [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
+- [VanCompass skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
 - [Westin Automotive](https://www.westinautomotive.com/products/2022/ford/transit-350)
@@ -110,7 +110,7 @@ Please follow the [contributing guide](contributing.md) and
 ### Bumpers
 
 - [Aluminess Hidden Winch Mount](https://www.aluminess.com/products/hidden-winch-mount-ford-transit-2020/?sku=210547-FS)
-- [Backwoods Adeventure Front and Rear Bumpers](https://backwoodsadventuremods.com/collections/ford-1)
+- [Backwoods Adventure Front and Rear Bumpers](https://backwoodsadventuremods.com/collections/ford-1)
   - [Scout Front Bumper](https://backwoodsadventuremods.com/products/ford-transit-scout-front-bumper)
     with and without a winch or lights
 - [CATuned Front Bumper](https://catunedoffroad.com/collections/ford-transit/products/catuned-off-road-transit-bumper)
@@ -118,8 +118,7 @@ Please follow the [contributing guide](contributing.md) and
 - [TecVan - CATuned Off-Road Ford Transit Bumper](https://tecvan.co/products/catuned-off-road-ford-transit-bumper)
 - [Transit Off-Road](https://transitoffroad.com/)
   - [Heavy Duty Rear Bumper](https://transitoffroad.com/product/hd_rear_bumper/)
-  - [Tubular Full Bumper with light mount
-](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
+  - [Tubular Full Bumper with light mount](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
 - [Van Compass Front Winch](https://vancompass.com/products/front-winch-bumper-hd-compatible-ford-transit-by-van-compass)
 
 ### Front Hooks
@@ -204,7 +203,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Vancillary](https://vancillary.com/collections/ford-transit) Headliner Shelf
   DIY Kit and sliding door stop
 - [Vanlife Collective](https://thevanlifecollective.com/shop/) Kits for Cabinets,
-  floor trims, headliner shelfs, lifting beds, and more
+  floor trims, headliner shelves, lifting beds, and more
 
 ## Maintenance
 
@@ -213,7 +212,7 @@ Please follow the [contributing guide](contributing.md) and
 ## Plumbing
 
 - [Gregoryx's research on compatible undermount tanks](https://www.fordtransitusaforum.com/threads/nw-conversions-water-tank-wastes-12-gallons-when-used-in-a-transit.90361/#post-1184317)
-  in FTUSAForum
+  in Ford Transit USA Forum
 
 ## Suppliers to DIY Builders
 
@@ -233,13 +232,13 @@ Please follow the [contributing guide](contributing.md) and
   Ford (and other makes) of vehicles which lets you customize your van's
   computer configuration.
 - Heritage Marine Electrical (Everett, WA) [https://www.energizedboat.com/](https://www.energizedboat.com/)
-  Great peope
+  Great people
   and prices in the Puget Sound Area. Ask for Paul and tell him Patrick sent you.
 - [Luno](https://lunolife.com/) Among the Transit specific products Luno makes a
   front seat inflatable mattress and front door screens as well as many other van
   accessories.
 - [Overland Gear Guy](https://overlandgearguy.com/collections/ford-transit-van)
-  Window screens and many different Transis specific storage bags
+  Window screens and many different Transit specific storage bags
 - [Owl Vans](https://owlvans.com/collections/ford-transit) Several Transit
   specific items including lifts, wheels, racks, and the Pismo bumper
 - [Rapid3D](https://www.rapid3d.ca/shop) 3D Scans of your Ford Transit you
@@ -271,14 +270,14 @@ Please follow the [contributing guide](contributing.md) and
   Transit’s driveline."
 - [Sprinter Store](https://www.sprinterstore.com/ford/) Despite the name,
   several suspension and other components
-- [Transit Offroad Lift klts](transitoffroad) with and without camber adjustment
+- [Transit Offroad Lift kits](transitoffroad) with and without camber adjustment
 - [Traxda Lift Kits](https://traxdaliftkits.com/product-category/ford-transit/)
   2 different lift options, as
-  [discussed in FTUSAForum](https://www.fordtransitusaforum.com/threads/anyone-try-the-traxda-leveling-lift-kits.78615/)
+  [discussed in Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/anyone-try-the-traxda-leveling-lift-kits.78615/)
 - [Van Compass](https://vancompass.com/) Has lift kits for AWD and RWD
   Transits as well as bumper upgrades and other accessories.
 - [Weldtech Designs](https://weldtecdesigns.com/product/wtd-ford-transit-3-spindle/)
-  Ford Transit 3″ Spindle lift, as [discussed in the FTUSAForum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
+  Ford Transit 3″ Spindle lift, as [discussed in the Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
 
 ## Seat Swivels
 
@@ -292,10 +291,10 @@ Please follow the [contributing guide](contributing.md) and
 ## Van Builds
 
 - List of Van [Build Threads on Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/list-of-camper-van-builds.83249/)
-- [Farout Ride](https://faroutride.com/) Very well documented van build with
+- [Far Out Ride](https://faroutride.com/) Very well documented van build with
   some paywall content as well.
 - [Greenstello Van 2.0](https://www.greenstello.com/) Well documented build
-  includuing [Undermount SmartPlug/Aux Solar/Exterior Plug](https://www.greenstello.com/blog/2021-12-13-smartplug-mount/smartplug-mount/)
+  including [Undermount SmartPlug/Aux Solar/Exterior Plug](https://www.greenstello.com/blog/2021-12-13-smartplug-mount/smartplug-mount/)
   and [24V secondary alternator install](https://www.greenstello.com/blog/2022-1-23-24v-alternator/24v-alternator/).
 
 ## Van Automation
