@@ -233,6 +233,8 @@ Please follow the [contributing guide](contributing.md) and
   wide range of Transit vehicle mods and camper components
 - [AVC RIG](https://avcrig.com/) Ready to install subfloors, roof racks and
   other DIY build components
+- [Campervan-HQ](https://www.campervan-hq.com/pages/search-results?q=Transit&)
+  Many Transit specific products from various manufacturers
 - [CR Laurence](https://www.crlaurence.com) Windows for your van build
   (Use the search)
 - [DIY Van](https://diyvan.com/collections/transit) run by Hein, DIY Van has
