@@ -147,7 +147,7 @@ Please follow the [contributing guide](contributing.md) and
 ### Skid Plates
 
 - [CA Tuned](https://catunedoffroad.com/collections/skid-plates/products/catuned-2021-ford-transit-skid-plate?variant=45743703228675)
-  Material: 3/16" aluminum, Coverage: Enginee, Years 2021+
+  Material: 3/16" aluminum, Coverage: Engine, Years 2021+
 - [Limitless Van](https://www.limitlessvan.com/product-page/ford-transit-intercooler-skid-plate)
   Material: 3/16" aluminum, Coverage: Intercooler, Years: 2015+
 - [NW Overland](https://northwest-overland.com/product/ford-transit-front-skid-plate-2014-2023-transit-van-150-250-350/)
@@ -178,7 +178,7 @@ Please follow the [contributing guide](contributing.md) and
   Espar kits
 - [Rixen's Enterprises, INC.](https://rixens.com/) Air and Coolant based systems
 - [Undermount AC](https://undermountac.com/) Split AC system with the compressor
-  under the van and the evaporator inside the van. Also has an optional hyrdronic
+  under the van and the evaporator inside the van. Also has an optional hydronic
   heater component.
 
 ## Interior Components
