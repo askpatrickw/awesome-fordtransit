@@ -71,10 +71,12 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Adventure Ready](https://goadventureready.com/search?q=Transit)
   Intercooler skid plate
+- [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
+  rear door racks and boxes, including a ski box, side ladder
 - [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020)
   Bumpers and racks
 - [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
-  bumper and skid plate also sells many other mfgs products
+  bumper and skid plate also sells many other manufacturers products
 - [Curious Campervans](https://curiouscampervans.com/collections/transit-products)
   Roof racks
 - [Ex-Guard](https://ex-guard.com/van/ford-transit/)
@@ -88,6 +90,8 @@ Please follow the [contributing guide](contributing.md) and
   prebuilt cabinets
 - GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html)
   🇫🇷
+- [Koolands](https://koolands.com/search?q=Transit&options%5Bprefix%5D=last)
+  a few transit specific products, but also rear boxes and a future ski box coming
 - [Luverne Truck](https://www.luvernetruck.com/all-products/2022/ford/transit-350/)
   bull bars, running boards, side and rear steps
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/)
@@ -95,13 +99,17 @@ Please follow the [contributing guide](contributing.md) and
 - [OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022)
   Lots of accessories, windows, racks, visors
 - [Rigwell](https://rigwell.com/collections/transit) Decorative Wraps and Flarespace
+- [Sandy Vans](https://sandyvans.com/collections/exterior-products/products/boost-box)
+  Just the ski box is of interest
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
   and other goodies including carbon ski box
+- [Tips Up Rack](https://tipsupracks.com/shop/) Technically not Transit specific
+  but I'm also collecting all the ski carrying options
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
-- [VanCompas.com skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
+- [VanCompass skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
 - [Westin Automotive](https://www.westinautomotive.com/products/2022/ford/transit-350)
@@ -110,7 +118,7 @@ Please follow the [contributing guide](contributing.md) and
 ### Bumpers
 
 - [Aluminess Hidden Winch Mount](https://www.aluminess.com/products/hidden-winch-mount-ford-transit-2020/?sku=210547-FS)
-- [Backwoods Adeventure Front and Rear Bumpers](https://backwoodsadventuremods.com/collections/ford-1)
+- [Backwoods Adventure Front and Rear Bumpers](https://backwoodsadventuremods.com/collections/ford-1)
   - [Scout Front Bumper](https://backwoodsadventuremods.com/products/ford-transit-scout-front-bumper)
     with and without a winch or lights
 - [CATuned Front Bumper](https://catunedoffroad.com/collections/ford-transit/products/catuned-off-road-transit-bumper)
@@ -118,8 +126,7 @@ Please follow the [contributing guide](contributing.md) and
 - [TecVan - CATuned Off-Road Ford Transit Bumper](https://tecvan.co/products/catuned-off-road-ford-transit-bumper)
 - [Transit Off-Road](https://transitoffroad.com/)
   - [Heavy Duty Rear Bumper](https://transitoffroad.com/product/hd_rear_bumper/)
-  - [Tubular Full Bumper with light mount
-](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
+  - [Tubular Full Bumper with light mount](https://transitoffroad.com/tubular-full-bumper-with-light-mount/)
 - [Van Compass Front Winch](https://vancompass.com/products/front-winch-bumper-hd-compatible-ford-transit-by-van-compass)
 
 ### Front Hooks
@@ -140,7 +147,7 @@ Please follow the [contributing guide](contributing.md) and
 ### Skid Plates
 
 - [CA Tuned](https://catunedoffroad.com/collections/skid-plates/products/catuned-2021-ford-transit-skid-plate?variant=45743703228675)
-  Material: 3/16" aluminum, Coverage: Enginee, Years 2021+
+  Material: 3/16" aluminum, Coverage: Engine, Years 2021+
 - [Limitless Van](https://www.limitlessvan.com/product-page/ford-transit-intercooler-skid-plate)
   Material: 3/16" aluminum, Coverage: Intercooler, Years: 2015+
 - [NW Overland](https://northwest-overland.com/product/ford-transit-front-skid-plate-2014-2023-transit-van-150-250-350/)
@@ -171,7 +178,7 @@ Please follow the [contributing guide](contributing.md) and
   Espar kits
 - [Rixen's Enterprises, INC.](https://rixens.com/) Air and Coolant based systems
 - [Undermount AC](https://undermountac.com/) Split AC system with the compressor
-  under the van and the evaporator inside the van. Also has an optional hyrdronic
+  under the van and the evaporator inside the van. Also has an optional hydronic
   heater component.
 
 ## Interior Components
@@ -180,6 +187,8 @@ Please follow the [contributing guide](contributing.md) and
   Tablets mounts for Transits
 - [Adventure Ready](https://goadventureready.com/search?q=Transit)
   Interior molle panels
+- [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
+  Bed platform
 - [Curious Campervans](https://curiouscampervans.com/collections/transit-products)
   Tanks, swivels, window covers, screens, and more
 - [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm)
@@ -204,7 +213,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Vancillary](https://vancillary.com/collections/ford-transit) Headliner Shelf
   DIY Kit and sliding door stop
 - [Vanlife Collective](https://thevanlifecollective.com/shop/) Kits for Cabinets,
-  floor trims, headliner shelfs, lifting beds, and more
+  floor trims, headliner shelves, lifting beds, and more
 
 ## Maintenance
 
@@ -213,7 +222,7 @@ Please follow the [contributing guide](contributing.md) and
 ## Plumbing
 
 - [Gregoryx's research on compatible undermount tanks](https://www.fordtransitusaforum.com/threads/nw-conversions-water-tank-wastes-12-gallons-when-used-in-a-transit.90361/#post-1184317)
-  in FTUSAForum
+  in Ford Transit USA Forum
 
 ## Suppliers to DIY Builders
 
@@ -224,6 +233,8 @@ Please follow the [contributing guide](contributing.md) and
   wide range of Transit vehicle mods and camper components
 - [AVC RIG](https://avcrig.com/) Ready to install subfloors, roof racks and
   other DIY build components
+- [Campervan-HQ](https://www.campervan-hq.com/pages/search-results?q=Transit&)
+  Many Transit specific products from various manufacturers
 - [CR Laurence](https://www.crlaurence.com) Windows for your van build
   (Use the search)
 - [DIY Van](https://diyvan.com/collections/transit) run by Hein, DIY Van has
@@ -233,13 +244,13 @@ Please follow the [contributing guide](contributing.md) and
   Ford (and other makes) of vehicles which lets you customize your van's
   computer configuration.
 - Heritage Marine Electrical (Everett, WA) [https://www.energizedboat.com/](https://www.energizedboat.com/)
-  Great peope
+  Great people
   and prices in the Puget Sound Area. Ask for Paul and tell him Patrick sent you.
 - [Luno](https://lunolife.com/) Among the Transit specific products Luno makes a
   front seat inflatable mattress and front door screens as well as many other van
   accessories.
 - [Overland Gear Guy](https://overlandgearguy.com/collections/ford-transit-van)
-  Window screens and many different Transis specific storage bags
+  Window screens and many different Transit specific storage bags
 - [Owl Vans](https://owlvans.com/collections/ford-transit) Several Transit
   specific items including lifts, wheels, racks, and the Pismo bumper
 - [Rapid3D](https://www.rapid3d.ca/shop) 3D Scans of your Ford Transit you
@@ -271,14 +282,14 @@ Please follow the [contributing guide](contributing.md) and
   Transit’s driveline."
 - [Sprinter Store](https://www.sprinterstore.com/ford/) Despite the name,
   several suspension and other components
-- [Transit Offroad Lift klts](transitoffroad) with and without camber adjustment
+- [Transit Offroad Lift kits](transitoffroad) with and without camber adjustment
 - [Traxda Lift Kits](https://traxdaliftkits.com/product-category/ford-transit/)
   2 different lift options, as
-  [discussed in FTUSAForum](https://www.fordtransitusaforum.com/threads/anyone-try-the-traxda-leveling-lift-kits.78615/)
+  [discussed in Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/anyone-try-the-traxda-leveling-lift-kits.78615/)
 - [Van Compass](https://vancompass.com/) Has lift kits for AWD and RWD
   Transits as well as bumper upgrades and other accessories.
 - [Weldtech Designs](https://weldtecdesigns.com/product/wtd-ford-transit-3-spindle/)
-  Ford Transit 3″ Spindle lift, as [discussed in the FTUSAForum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
+  Ford Transit 3″ Spindle lift, as [discussed in the Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
 
 ## Seat Swivels
 
@@ -292,10 +303,10 @@ Please follow the [contributing guide](contributing.md) and
 ## Van Builds
 
 - List of Van [Build Threads on Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/list-of-camper-van-builds.83249/)
-- [Farout Ride](https://faroutride.com/) Very well documented van build with
+- [Far Out Ride](https://faroutride.com/) Very well documented van build with
   some paywall content as well.
 - [Greenstello Van 2.0](https://www.greenstello.com/) Well documented build
-  includuing [Undermount SmartPlug/Aux Solar/Exterior Plug](https://www.greenstello.com/blog/2021-12-13-smartplug-mount/smartplug-mount/)
+  including [Undermount SmartPlug/Aux Solar/Exterior Plug](https://www.greenstello.com/blog/2021-12-13-smartplug-mount/smartplug-mount/)
   and [24V secondary alternator install](https://www.greenstello.com/blog/2022-1-23-24v-alternator/24v-alternator/).
 
 ## Van Automation
