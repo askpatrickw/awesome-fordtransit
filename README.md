@@ -90,6 +90,8 @@ Please follow the [contributing guide](contributing.md) and
   prebuilt cabinets
 - GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html)
   🇫🇷
+- [Koolands](https://koolands.com/search?q=Transit&options%5Bprefix%5D=last)
+  a few transit specific products, but also rear boxes and a future ski box coming
 - [Luverne Truck](https://www.luvernetruck.com/all-products/2022/ford/transit-350/)
   bull bars, running boards, side and rear steps
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/)
