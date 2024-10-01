@@ -18,7 +18,7 @@ jobs:
 
       - name: Create a Requirements file for Python Packages
         run: |
-          echo "pre-commit>=3.7" >> requirements-pr.txt
+          echo "pre-commit>=3.8" >> requirements-pr.txt
 
       - name: Get and set pip cache dir
         run: echo "PIP_CACHE_DIR=$(pip cache dir)" >> "$GITHUB_ENV"
