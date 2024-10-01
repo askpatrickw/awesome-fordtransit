@@ -148,6 +148,8 @@ Please follow the [contributing guide](contributing.md) and
 
 - [CA Tuned](https://catunedoffroad.com/collections/skid-plates/products/catuned-2021-ford-transit-skid-plate?variant=45743703228675)
   Material: 3/16" aluminum, Coverage: Engine, Years 2021+
+- [Go Adventure Ready](https://goadventureready.com/products/2015-ford-transit-intercooler-skid-plate)
+  Material: 1/4in aluminum, Coverage: Intercooler, Years: 2015+
 - [Limitless Van](https://www.limitlessvan.com/product-page/ford-transit-intercooler-skid-plate)
   Material: 3/16" aluminum, Coverage: Intercooler, Years: 2015+
 - [NW Overland](https://northwest-overland.com/product/ford-transit-front-skid-plate-2014-2023-transit-van-150-250-350/)
