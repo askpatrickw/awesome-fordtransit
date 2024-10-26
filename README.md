@@ -216,6 +216,8 @@ Please follow the [contributing guide](contributing.md) and
   DIY Kit and sliding door stop
 - [Vanlife Collective](https://thevanlifecollective.com/shop/) Kits for Cabinets,
   floor trims, headliner shelves, lifting beds, and more
+- [White Top Adventures](https://whitetopadventures.com/collections/ford-transit)
+  Selection of interior components
 
 ## Maintenance
 
