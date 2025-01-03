@@ -181,7 +181,8 @@ Please follow the [contributing guide](contributing.md) and
 - [Rixen's Enterprises, INC.](https://rixens.com/) Air and Coolant based systems
 - [Undermount AC](https://undermountac.com/) Split AC system with the compressor
   under the van and the evaporator inside the van. Also has an optional hydronic
-  heater component.
+  heater component. Offers a [ESPHome/Home Assistant compatible thermostat](https://undermountac.com/pages/hass) thermostat
+- [Cruise N Comfort USA](https://www.cruisencomfortusa.com/) Similar split AC system
 
 ## Interior Components
 
