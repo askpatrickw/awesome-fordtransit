@@ -92,26 +92,40 @@ Please follow the [contributing guide](contributing.md) and
   🇫🇷
 - [Koolands](https://koolands.com/search?q=Transit&options%5Bprefix%5D=last)
   a few transit specific products, but also rear boxes and a future ski box coming
+- [Lazer Lamps](https://www.triple-r-lights.com/ford-transit-2015-grille-kit.html)
+  Grille light kits for Ford Transit
 - [Luverne Truck](https://www.luvernetruck.com/all-products/2022/ford/transit-350/)
   bull bars, running boards, side and rear steps
 - [Motion Windows](https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/)
   windows are manufactured as an aftermarket add-on
+- [The Mule Carrier](https://thevanmart.com/products/the-mule-carrier-gondola-rack)
+  Gondola rack system for roof storage
 - [OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022)
   Lots of accessories, windows, racks, visors
 - [Rigwell](https://rigwell.com/collections/transit) Decorative Wraps and Flarespace
 - [Sandy Vans](https://sandyvans.com/collections/exterior-products/products/boost-box)
   Just the ski box is of interest
+- [Slope Design](https://slopedesign.net/)
+  Ski lockers for transit vans
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
   and other goodies including carbon ski box
+- [Terrax Innovations](https://www.terraxinnovations.com/collections/ford-transit-collection)
+  Two Transit specific mounitng bracks for around the screen and acrosse the windshield
 - [Tips Up Rack](https://tipsupracks.com/shop/) Technically not Transit specific
   but I'm also collecting all the ski carrying options
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
+- [Unaka Gear Co](https://unakagearco.com/collections/ford-transit)
+  Transit accessories and components for rooftops and interiors
 - [VanCompass skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
+- [VanCentric](https://www.etsy.com/listing/1344207545/front-light-plate-ford-transit)
+  Front light plates for Ford Transit
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
+- [Vanvision](https://www.sprintervanvision.com/product-page/ford-transit-vanvision)
+  Ford Transit van TV system
 - [Westin Automotive](https://www.westinautomotive.com/products/2022/ford/transit-350)
   Bull bars, running boards
 
@@ -218,10 +232,14 @@ Please follow the [contributing guide](contributing.md) and
   floor trims, headliner shelves, lifting beds, and more
 - [White Top Adventures](https://whitetopadventures.com/collections/ford-transit)
   Selection of interior components
+- [Window Vent Screens](https://www.etsy.com/listing/1533103522/ford-transit-van-window-vent-screen)
+  Transit window vent screens on Etsy
 
 ## Maintenance
 
 - [How to adjust your slider](https://youtu.be/xoy2mQh8gi8) (YouTube)
+- [12 Volt Solutions](https://www.12volt.solutions/products/2020-ford-transit-remote-start-plug-play-kit)
+  Remote start plug & play kit for Ford Transit
 
 ## Plumbing
 
@@ -280,10 +298,10 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Active Suspension](https://activesuspension.com/pages/ras) Roadmaster
   Active Suspension rear leaf spring suspension upgrade that converts basic
-  “passive” leaf spring suspension to mechanical “active” suspension.
+  "passive" leaf spring suspension to mechanical "active" suspension.
 - [Quigley QLift](https://www.quigley4x4.com/products/qlift/) "The QLift is a
-  specialty 2” lift that is designed to maintain factory angles on the Ford
-  Transit’s driveline."
+  specialty 2" lift that is designed to maintain factory angles on the Ford
+  Transit's driveline."
 - [Sprinter Store](https://www.sprinterstore.com/ford/) Despite the name,
   several suspension and other components
 - [Transit Offroad Lift kits](transitoffroad) with and without camber adjustment
@@ -293,7 +311,9 @@ Please follow the [contributing guide](contributing.md) and
 - [Van Compass](https://vancompass.com/) Has lift kits for AWD and RWD
   Transits as well as bumper upgrades and other accessories.
 - [Weldtech Designs](https://weldtecdesigns.com/product/wtd-ford-transit-3-spindle/)
-  Ford Transit 3″ Spindle lift, as [discussed in the Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
+  Ford Transit 3" Spindle lift, as [discussed in the Ford Transit USA Forum](https://www.fordtransitusaforum.com/threads/my-two-cents-on-lift-kits.86177/page-5)
+- [HD Coil Springs](https://www.hdcoilsprings.com/product/2015-2023-ford-transit-150-transit-250-transit-350-front-coil-springs-pair-2wd-35-capacity/)
+  Front coil springs with 35% capacity increase for 2015-2023 Transit (2WD)
 
 ## Seat Swivels
 
