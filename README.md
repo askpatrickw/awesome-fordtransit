@@ -112,20 +112,20 @@ Please follow the [contributing guide](contributing.md) and
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
   and other goodies including carbon ski box
 - [Terrax Innovations](https://www.terraxinnovations.com/collections/ford-transit-collection)
-  Various Ford Transit accessories and components
+  Two Transit specific mounitng bracks for around the screen and acrosse the windshield
 - [Tips Up Rack](https://tipsupracks.com/shop/) Technically not Transit specific
   but I'm also collecting all the ski carrying options
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
 - [Unaka Gear Co](https://unakagearco.com/collections/ford-transit)
-  Transit accessories and components
+  Transit accessories and components for rooftops and interiors
 - [VanCompass skid plates](https://vancompass.com/collections/transit-awd/skid-plate)
   for intercooler and differential
 - [VanCentric](https://www.etsy.com/listing/1344207545/front-light-plate-ford-transit)
   Front light plates for Ford Transit
 - [Van Windows Direct](https://vanwindowsdirect.com/collections/medium-high-roof)
 - [Vanvision](https://www.sprintervanvision.com/product-page/ford-transit-vanvision)
-  Ford Transit van vision systems
+  Ford Transit van TV system
 - [Westin Automotive](https://www.westinautomotive.com/products/2022/ford/transit-350)
   Bull bars, running boards
 
