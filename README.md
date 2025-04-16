@@ -73,6 +73,8 @@ Please follow the [contributing guide](contributing.md) and
   Intercooler skid plate
 - [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
   rear door racks and boxes, including a ski box, side ladder
+- [Backland Gear](https://backlandgear.com/en-us/products/ox-ski-board-box)
+  OX Ski & Board Box
 - [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020)
   Bumpers and racks
 - [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
@@ -88,10 +90,13 @@ Please follow the [contributing guide](contributing.md) and
 - [Flarespace](https://flarespace.com/) increase interior space by adding "bump outs"
 - [Flatline Van Co](https://flatlinevanco.com/collections/transit) Racks, ladders,
   prebuilt cabinets
+  - [Adventure Van Ski & Snowboard Locker](https://flatlinevanco.com/products/van-ski-locker)
 - GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html)
   🇫🇷
 - [Koolands](https://koolands.com/search?q=Transit&options%5Bprefix%5D=last)
   a few transit specific products, but also rear boxes and a future ski box coming
+- [Lamin-X](https://lamin-x.com/search-magic.html#query=all&filter_auto-moto.filter=Automotive&filter_year.filter=2022&filter_make.filter=Ford&filter_Model.filter=Transit%20Van&sort_method=selling_price.filter/asc)
+  Protective film for headlights, taillights, and fog lights
 - [Lazer Lamps](https://www.triple-r-lights.com/ford-transit-2015-grille-kit.html)
   Grille light kits for Ford Transit
 - [Luverne Truck](https://www.luvernetruck.com/all-products/2022/ford/transit-350/)
@@ -103,6 +108,8 @@ Please follow the [contributing guide](contributing.md) and
 - [OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022)
   Lots of accessories, windows, racks, visors
 - [Rigwell](https://rigwell.com/collections/transit) Decorative Wraps and Flarespace
+- [Rover Vans](https://rovervans.com/products/rover-vans-ski-box-coming-soon)
+  Rover Vans Ski/Snowboard Box
 - [Sandy Vans](https://sandyvans.com/collections/exterior-products/products/boost-box)
   Just the ski box is of interest
 - [Slope Design](https://slopedesign.net/)
@@ -209,24 +216,34 @@ Please follow the [contributing guide](contributing.md) and
   Bed platform
 - [Curious Campervans](https://curiouscampervans.com/collections/transit-products)
   Tanks, swivels, window covers, screens, and more
+- [Covercraft] (<https://www.covercraft.com/shop/2022-ford-transit-350/dash-covers>)
+  Dashboard covers
+- [Dash Designs](https://www.dashdesigns.com/c-1337840-dash-covers.html)
+  Dashboard covers
 - [Discount Van\Truck](https://www.discountvantruck.com/discounttransitaccessories/transit.htm)
   Many seating and interior components
 - [Go Code Overland](https://gocodeoverland.com/collections/transit) Blob
   covers, trim pieces, window trim and flares
 - [Laguna Table Mounts](https://www.lagunusa.com/) "The" hashtag vanlife
   adjustable table
+- [Lost Hiway Customs](https://losthiwaycustoms.com/search?q=Transit&options%5Bprefix%5D=last)
+  Custom cabinets and other components
 - [Nautilus Retracting Shower Door](https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv)
 - [Paradigm Van Conversions](https://www.paradigmvanconversions.com/shop/Ford-Trasit-Lagun-Table-B-Pillar-Adapter-p366112059)
   Laguna B-Pillar bracket
 - [Rigwell](https://rigwell.com/collections/transit) Cabinets and galley components
 - [S&B](https://sbfilters.com/pages/search?query=Transit) Several kinds of water
   tanks
-- [TecVan](https://tecvan.co/collections/shop-transit) Shower pans, tanks and other
-  interior bits
 - [TD Vans Etsy](https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount)
   Laguna B-Pillar bracket
+- [Tectonic Overland](https://tectonicoverland.com/collections/all-products)
+  Interior gear including Transit specific MOlle panels
+- [TecVan](https://tecvan.co/collections/shop-transit) Shower pans, tanks and other
+  interior bits
 - [Terrawagon](https://www.terrawagen.com/collections/ford-transit) has
   several ventilation products and an aero hood spoiler
+- [Van Bling](https://www.etsy.com/shop/vanblingdotcom)
+  3D Printed accessories for the Transit
 - [VANCAMP](https://vanncamp.com/ford-transit-van-accessories/) Window covers
 - [Vancillary](https://vancillary.com/collections/ford-transit) Headliner Shelf
   DIY Kit and sliding door stop
