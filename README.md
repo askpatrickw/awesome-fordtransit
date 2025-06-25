@@ -52,9 +52,9 @@ Please follow the [contributing guide](contributing.md) and
 
 ## Dealers
 
-- Missouri
-  - [Gary Crossley Ford](https://www.garycrossleyford.com/) User
-    [CrewVanMan@CrossleyFord on Ford Transit USA Forum](https://www.fordtransitusaforum.com/members/crewvanman-crossleyford.71641/)
+- Texas
+  - [Five Star Ford](https://www.fivestarforddallas.com/) User
+    [CrewVanMan@TransitSLS on Ford Transit USA Forum](https://www.fordtransitusaforum.com/members/crewvanman-transitsls.71641/)
     is a sales Rep for this dealer. Hugely helpful to all ordering Transits in
     the the US.
 - Washington
