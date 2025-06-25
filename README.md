@@ -71,6 +71,8 @@ Please follow the [contributing guide](contributing.md) and
 
 - [Adventure Ready](https://goadventureready.com/search?q=Transit)
   Intercooler skid plate
+- [Akkon](https://www.akkon.com/pages/product-result?rq=mk_ford~md_transit-350~yr_2022)
+  has new headlights available
 - [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
   rear door racks and boxes, including a ski box, side ladder
 - [Backland Gear](https://backlandgear.com/en-us/products/ox-ski-board-box)
@@ -361,6 +363,10 @@ Please follow the [contributing guide](contributing.md) and
 - In the spirit of "If I could do it over"
   [tngw1500se discusses using ESP32 and relays](https://www.fordtransitusaforum.com/threads/wiring-if-i-had-it-to-do-over-again.87111/)
   for wiring automation
+- MeatPs's WiCAN is an OBDii sensor with WiFI, MQTT, and Home Assistant integration used by many in
+  the FT USA Community. [meatpiHQ/wican-fw](https://github.com/meatpiHQ/wican-fw)
+  - Anthony Secco's WiCAN and MQTT Implementation [anthonysecco/WiCAN-Ford-Transit?tab=readme-ov-file](https://github.com/anthonysecco/WiCAN-Ford-Transit?tab=readme-ov-file)
+- Automate your door locks in Home Assistant [anthonysecco/ford-transit-door-interface](https://github.com/anthonysecco/ford-transit-door-interface)
 
 ## Van Builders
 
