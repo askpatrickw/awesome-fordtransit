@@ -113,7 +113,7 @@ Please follow the [contributing guide](contributing.md) and
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
   and other goodies
 - [Terrax Innovations](https://www.terraxinnovations.com/collections/ford-transit-collection)
-  Two Transit specific mounitng bracks for around the screen and acrosse the windshield
+  Two Transit specific mounting brackets for around the screen and across the windshield
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
 - [Unaka Gear Co](https://unakagearco.com/collections/ford-transit)
