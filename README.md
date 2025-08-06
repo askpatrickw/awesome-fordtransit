@@ -16,6 +16,7 @@ Please follow the [contributing guide](contributing.md) and
     - [Front Hooks](#front-hooks)
     - [Rear Shock Relocation](#rear-shock-relocation)
     - [Skid Plates](#skid-plates)
+    - [Ski Boxes](#ski-boxes)
   - [Heating and Air Conditioning](#heating-and-air-conditioning)
   - [Interior Components](#interior-components)
   - [Maintenance](#maintenance)
@@ -74,9 +75,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Akkon](https://www.akkon.com/pages/product-result?rq=mk_ford~md_transit-350~yr_2022)
   has new headlights available
 - [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
-  rear door racks and boxes, including a ski box, side ladder
-- [Backland Gear](https://backlandgear.com/en-us/products/ox-ski-board-box)
-  OX Ski & Board Box
+  rear door racks and boxes, side ladder
 - [Backwoods Adventure Mods](https://backwoodsadventuremods.com/collections/transit-2020)
   Bumpers and racks
 - [CA Tuned](https://catunedoffroad.com/collections/ford-transit) has a front
@@ -92,11 +91,10 @@ Please follow the [contributing guide](contributing.md) and
 - [Flarespace](https://flarespace.com/) increase interior space by adding "bump outs"
 - [Flatline Van Co](https://flatlinevanco.com/collections/transit) Racks, ladders,
   prebuilt cabinets
-  - [Adventure Van Ski & Snowboard Locker](https://flatlinevanco.com/products/van-ski-locker)
 - GFK Flare or Widening Jaw sold by [GTV-Van](https://www.gtv-van.com/en/universal-longsleeper-extensions.html)
   🇫🇷
 - [Koolands](https://koolands.com/search?q=Transit&options%5Bprefix%5D=last)
-  a few transit specific products, but also rear boxes and a future ski box coming
+  a few transit specific products, but also rear boxes
 - [Lamin-X](https://lamin-x.com/search-magic.html#query=all&filter_auto-moto.filter=Automotive&filter_year.filter=2022&filter_make.filter=Ford&filter_Model.filter=Transit%20Van&sort_method=selling_price.filter/asc)
   Protective film for headlights, taillights, and fog lights
 - [Lazer Lamps](https://www.triple-r-lights.com/ford-transit-2015-grille-kit.html)
@@ -110,20 +108,12 @@ Please follow the [contributing guide](contributing.md) and
 - [OMAC Shop](https://omacshop.com/collections/transit-350/?constraint=year_2022)
   Lots of accessories, windows, racks, visors
 - [Rigwell](https://rigwell.com/collections/transit) Decorative Wraps and Flarespace
-- [Rover Vans](https://rovervans.com/products/rover-vans-ski-box-coming-soon)
-  Rover Vans Ski/Snowboard Box
-- [Sandy Vans](https://sandyvans.com/collections/exterior-products/products/boost-box)
-  Just the ski box is of interest
-- [Slope Design](https://slopedesign.net/)
-  Ski lockers for transit vans
 - [Steel Skid Plate](https://www.skid-plate.com/ford-transit-skid-plate)
   Romanian company
 - [TecVan](https://tecvan.co/collections/shop-transit) Racks and boxes
-  and other goodies including carbon ski box
+  and other goodies
 - [Terrax Innovations](https://www.terraxinnovations.com/collections/ford-transit-collection)
-  Two Transit specific mounitng bracks for around the screen and acrosse the windshield
-- [Tips Up Rack](https://tipsupracks.com/shop/) Technically not Transit specific
-  but I'm also collecting all the ski carrying options
+  Two Transit specific mounting brackets for around the screen and across the windshield
 - [Transit Offroad](https://transitoffroad.com) lift kits, skid plates, bumpers
   and interior components
 - [Unaka Gear Co](https://unakagearco.com/collections/ford-transit)
@@ -194,6 +184,27 @@ Please follow the [contributing guide](contributing.md) and
     [Installation](https://www.youtube.com/watch?v=hhQWFEPXybY)
   - Material: 1/4" steel, Coverage: rear differential, Years: 2015-2022
     [Installation](https://www.youtube.com/watch?v=AL9PEnjYl9E)
+
+### Ski Boxes
+
+- [Avatar Offroad](https://avataroffroad.com/ford/ford-transit-van-accessories/)
+  Ski box for rear door mounting
+- [Backland Gear](https://backlandgear.com/en-us/products/ox-ski-board-box)
+  OX Ski & Board Box
+- [Flatline Van Co](https://flatlinevanco.com/products/van-ski-locker)
+  Adventure Van Ski & Snowboard Locker
+- [Koolands](https://koolands.com/search?q=Transit&options%5Bprefix%5D=last)
+  Future ski box coming soon
+- [Rover Vans](https://rovervans.com/products/rover-vans-ski-box-coming-soon)
+  Rover Vans Ski/Snowboard Box
+- [Sandy Vans](https://sandyvans.com/collections/exterior-products/products/boost-box)
+  Boost Box ski storage
+- [Slope Design](https://slopedesign.net/)
+  Ski lockers for transit vans
+- [TecVan](https://tecvan.co/collections/shop-transit)
+  Carbon fiber ski box
+- [Tips Up Rack](https://tipsupracks.com/shop/)
+  Ski carrying options
 
 ## Heating and Air Conditioning
 
