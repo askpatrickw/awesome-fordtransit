@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   process-resource:
-    if: contains(github.event.issue.labels.*.name, 'new-resource')
+    if: contains(join(github.event.issue.labels.*.name, ','), 'new-resource')
     runs-on: ubuntu-latest
 
     steps:
@@ -33,42 +33,25 @@ jobs:
 
       - name: Parse issue body
         id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
-          python3 - <<'EOF'
+          python3 - <<EOF
           import re
-          import yaml
-          import json
           import os
 
-          issue_body = """${{ github.event.issue.body }}"""
+          issue_body = os.environ["ISSUE_BODY"]
 
-          # Extract URL
-          url_match = re.search(r'### URL\s*\n\s*(.+)', issue_body)
-          url = url_match.group(1).strip() if url_match else ""
+          def extract(pattern):
+              match = re.search(pattern, issue_body, re.MULTILINE | re.DOTALL)
+              return match.group(1).strip() if match else ""
 
-          # Check if AI generation is requested
+          url = extract(r'### URL\s*\n\s*(.+)')
           use_ai = "- [x] Use AI to generate description and category" in issue_body
+          manual_desc = extract(r'### Description \(Optional if using AI\)\s*\n\s*(.+)')
+          manual_cat = extract(r'### Category \(Optional if using AI\)\s*\n\s*(.+)')
+          override = extract(r'### Override AI Suggestion \(Optional\)\s*\n\s*(.+)')
 
-          # Extract manual description if provided
-          desc_match = re.search(r'### Description \(Optional if using AI\)\s*\n\s*(.+)', issue_body)
-          manual_desc = desc_match.group(1).strip() if desc_match else ""
-
-          # Extract manual category if provided
-          cat_match = re.search(r'### Category \(Optional if using AI\)\s*\n\s*(.+)', issue_body)
-          manual_cat = cat_match.group(1).strip() if cat_match else ""
-
-          # Extract override suggestion
-          override_match = re.search(r'### Override AI Suggestion \(Optional\)\s*\n\s*(.+)', issue_body, re.MULTILINE | re.DOTALL)
-          override = override_match.group(1).strip() if override_match else ""
-
-          # Set outputs
-          print(f"url={url}")
-          print(f"use_ai={use_ai}")
-          print(f"manual_desc={manual_desc}")
-          print(f"manual_cat={manual_cat}")
-          print(f"override={override}")
-
-          # Write to GITHUB_OUTPUT
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
               f.write(f"url={url}\n")
               f.write(f"use_ai={use_ai}\n")
@@ -95,17 +78,11 @@ jobs:
         run: |
           URL="${{ steps.parse.outputs.url }}"
 
-          # Fetch page content
           CONTENT=$(curl -sL "$URL" | head -c 10000)
 
-          # Generate description
-          DESCRIPTION=$(gh models run openai/gpt-4o-mini "Analyze this Ford Transit website and provide a ONE-LINE description (max 100 chars): $URL. Brief description format like 'Bumpers, skid plates, and lift kits for Ford Transit'")
-
-          # Determine category
-          CATEGORY=$(gh models run openai/gpt-4o-mini "Categorize this Ford Transit resource ($URL) into ONE category: Community, Dealers, Engine Mods, Exterior, Exterior - Bumpers, Exterior - Front Hooks, Exterior - Rear Shock Relocation, Exterior - Skid Plates, Exterior - Ski Boxes, Heating and AC, Interior, Maintenance, Plumbing, Suppliers, Suspension and Lifts, Seat Swivels, Van Automation, Van Builds, Van Builders, Wheels and Tires. Return ONLY the category name.")
-
-          # Check for appropriate content
-          APPROPRIATE=$(gh models run openai/gpt-4o-mini "Is this website appropriate for a Ford Transit community resource list? Check $URL for: Transit-related content, no inappropriate content, legitimate business. Reply with only YES or NO and brief reason.")
+          DESCRIPTION=$(gh models run openai/gpt-4o-mini "Analyze this Ford Transit website and provide a ONE-LINE description (max 100 chars): $URL" | tr '\n' ' ')
+          CATEGORY=$(gh models run openai/gpt-4o-mini "Categorize this Ford Transit resource ($URL) into ONE category..." | tr '\n' ' ')
+          APPROPRIATE=$(gh models run openai/gpt-4o-mini "Is this website appropriate for a Ford Transit community resource list?..." | tr '\n' ' ')
 
           echo "description=$DESCRIPTION" >> $GITHUB_OUTPUT
           echo "category=$CATEGORY" >> $GITHUB_OUTPUT
@@ -126,56 +103,38 @@ jobs:
 
           URL="${{ steps.parse.outputs.url }}"
 
-          # Create formatted entry using AI
-          ENTRY_LINE=$(gh models run openai/gpt-4o-mini "Create a markdown list entry for: URL=$URL, Description=$DESC. Format: '- [Site Name](url) Description'. Extract site name from URL domain.")
+          ENTRY_LINE=$(gh models run openai/gpt-4o-mini "Create a markdown list entry for: URL=$URL, Description=$DESC..." | tr '\n' ' ')
 
-          # Dynamically find the section header using AI
           README_HEADERS=$(grep '^##' README.md)
 
-          SECTION_HEADER=$(gh models run openai/gpt-4o-mini "Find the exact section header that matches category '$CAT'. Available headers: $README_HEADERS. Rules: 1) Match to most appropriate section 2) For subcategories like 'Exterior - Bumpers' match to '### Bumpers' 3) Return ONLY the exact header text with ## or ###. Examples: 'Van Builds' → '## Van Builds', 'Exterior - Bumpers' → '### Bumpers', 'Heating and AC' → '## Heating and Air Conditioning'")
+          SECTION_HEADER=$(gh models run openai/gpt-4o-mini "Find the exact section header that matches category '$CAT'..." | tr '\n' ' ')
 
-          # Fallback: if AI response is empty or invalid, try fuzzy matching
           if [ -z "$SECTION_HEADER" ] || [[ ! "$SECTION_HEADER" =~ ^##.* ]]; then
             echo "AI section detection failed, using fuzzy matching fallback"
             SECTION_HEADER=$(echo "$README_HEADERS" | grep -i "$CAT" | head -n1)
-
-            # Final fallback: create a new section
             if [ -z "$SECTION_HEADER" ]; then
               SECTION_HEADER="## $CAT"
               echo "Creating new section: $SECTION_HEADER"
             fi
           fi
 
-          # Find section boundaries
           SECTION_START=$(grep -n "^$(echo "$SECTION_HEADER" | sed 's/[[\.*^$()+?{|]/\\&/g')" README.md | head -n1 | cut -d: -f1)
-
           if [ -z "$SECTION_START" ]; then
             echo "Error: Could not find section '$SECTION_HEADER' in README"
             exit 1
           fi
 
-          # Find end of section (next header at same or higher level)
-          if [[ "$SECTION_HEADER" == "###"* ]]; then
-            # For subsections, find next ### or ## header
-            SECTION_END=$(tail -n +$((SECTION_START+1)) README.md | grep -n "^##" | head -n1 | cut -d: -f1)
-          else
-            # For main sections, find next ## header
-            SECTION_END=$(tail -n +$((SECTION_START+1)) README.md | grep -n "^##" | head -n1 | cut -d: -f1)
-          fi
-
+          SECTION_END=$(tail -n +$((SECTION_START+1)) README.md | grep -n "^##" | head -n1 | cut -d: -f1)
           if [ -n "$SECTION_END" ]; then
             SECTION_END=$((SECTION_START + SECTION_END))
           else
             SECTION_END=$(wc -l < README.md)
           fi
 
-          # Extract just the target section
           SECTION_CONTENT=$(sed -n "${SECTION_START},$((SECTION_END-1))p" README.md)
 
-          # Use AI to add entry to just this section
-          UPDATED_SECTION=$(gh models run openai/gpt-4o-mini "Add this entry alphabetically: '$ENTRY_LINE'. Current section: '$SECTION_CONTENT'. Instructions: 1) Add entry in alphabetical order within list items 2) Return ONLY updated section content 3) Maintain exact formatting 4) No explanations")
+          UPDATED_SECTION=$(gh models run openai/gpt-4o-mini "Add this entry alphabetically: '$ENTRY_LINE'. Current section: '$SECTION_CONTENT'..." | tr '\n' ' ')
 
-          # Create temporary file with updated content
           head -n $((SECTION_START-1)) README.md > temp_readme.md
           echo "$UPDATED_SECTION" >> temp_readme.md
           tail -n +$SECTION_END README.md >> temp_readme.md
@@ -197,86 +156,56 @@ jobs:
             const category = useAi ? '${{ steps.ai_generate.outputs.category }}' : '${{ steps.parse.outputs.manual_cat }}';
             const appropriate = '${{ steps.ai_generate.outputs.appropriate }}';
             const formattedEntry = `${{ steps.format.outputs.entry }}`;
+            const override = '${{ steps.parse.outputs.override }}';
 
             let comment = '## 🤖 Automated Analysis Results\n\n';
 
-            // URL Validation
             if (!validated) {
               comment += '❌ **URL Validation Failed**: The provided URL could not be accessed.\n\n';
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                labels: ['invalid-url']
-              });
+              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, labels: ['invalid-url'] });
               return;
             } else {
               comment += '✅ **URL Validation**: Successful\n';
             }
 
-            // Duplicate Check
             if (isDuplicate) {
               comment += '⚠️ **Duplicate Check**: This URL may already exist in the list.\n\n';
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                labels: ['duplicate']
-              });
+              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, labels: ['duplicate'] });
             } else {
               comment += '✅ **Duplicate Check**: No duplicates found\n';
             }
 
-            // Content Appropriateness (AI only)
             if (useAi && appropriate) {
-              if (appropriate.startsWith('YES')) {
+              if (appropriate.toUpperCase().startsWith('YES')) {
                 comment += '✅ **Content Check**: Appropriate for Ford Transit community\n';
               } else {
                 comment += `⚠️ **Content Check**: ${appropriate}\n`;
               }
             }
 
-            // Proposed Entry
             comment += '\n### 📝 Proposed Entry\n\n';
             comment += '**Category**: ' + category + '\n';
             comment += '**Description**: ' + description + '\n\n';
             comment += '```markdown\n' + formattedEntry + '\n```\n\n';
 
-            // Override suggestion
-            const override = '${{ steps.parse.outputs.override }}';
             if (override) {
               comment += '### 💡 User Suggestion\n' + override + '\n\n';
             }
 
-            // Next steps
             comment += '### ⏭️ Next Steps\n\n';
             comment += '1. Review the proposed entry above\n';
             comment += '2. If it looks good, add the `approved` label to create a PR\n';
             comment += '3. If changes are needed, add the `needs-changes` label and comment with feedback\n';
 
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: comment
-            });
-
-            // Add needs-review label
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              labels: ['needs-review']
-            });
+            await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, body: comment });
+            await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, labels: ['needs-review'] });
 
       - name: Create Pull Request
         if: steps.validate.outcome == 'success' && steps.duplicates.outcome == 'success'
         run: |
-          # Configure git
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Create branch and commit changes
           BRANCH_NAME="add-resource-$(date +%s)"
           git checkout -b "$BRANCH_NAME"
           git add README.md
@@ -286,24 +215,33 @@ jobs:
 
           🤖 Generated with GitHub Actions"
 
-          # Push branch
           git push origin "$BRANCH_NAME"
 
-          # Create PR
-          gh pr create \
-            --title "Add Ford Transit resource: ${{ steps.ai_generate.outputs.description || steps.parse.outputs.manual_desc }}" \
-            --body "Resolves #${{ github.event.issue.number }}
+          DESC="${{ steps.ai_generate.outputs.description }}"
+          [ -z "$DESC" ] && DESC="${{ steps.parse.outputs.manual_desc }}"
+          CAT="${{ steps.ai_generate.outputs.category }}"
+          [ -z "$CAT" ] && CAT="${{ steps.parse.outputs.manual_cat }}"
+
+          PR_BODY="Resolves #${{ github.event.issue.number }}
 
           ## Summary
-          - Added new Ford Transit resource to **${{ steps.ai_generate.outputs.category || steps.parse.outputs.manual_cat }}** section
+          - Added new Ford Transit resource to **$CAT** section
           - Entry: \`${{ steps.format.outputs.entry }}\`
 
           ## Validation Results
           - ✅ URL accessible
           - ✅ No duplicates found
-          ${{ steps.ai_generate.outputs.appropriate && steps.ai_generate.outputs.appropriate.startsWith('YES') && '- ✅ Content appropriate' || '' }}
+          "
 
-          🤖 Generated with GitHub Actions" \
+          if [[ "${{ steps.ai_generate.outputs.appropriate }}" =~ ^YES ]]; then
+            PR_BODY+="\n- ✅ Content appropriate"
+          fi
+
+          echo "$PR_BODY" > pr_body.md
+
+          gh pr create \
+            --title "Add Ford Transit resource: $DESC" \
+            --body-file pr_body.md \
             --label "new-resource"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
