@@ -41,8 +41,8 @@ jobs:
 
             // Get all comments
             const comments = await github.rest.issues.listComments({
-              owner: issue.owner,
-              repo: issue.repo,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
               issue_number: issue.number
             });
 
