@@ -131,8 +131,10 @@ jobs:
             --output formatted_entry.md
 
           FORMATTED=$(cat formatted_entry.md)
+          # Extract just the formatted entry line (after "Formatted entry:")
+          ENTRY_LINE=$(echo "$FORMATTED" | sed -n '/^Formatted entry:$/,$ p' | tail -n +2 | head -n 1)
           echo "entry<<EOF" >> $GITHUB_OUTPUT
-          echo "$FORMATTED" >> $GITHUB_OUTPUT
+          echo "$ENTRY_LINE" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Comment on issue
