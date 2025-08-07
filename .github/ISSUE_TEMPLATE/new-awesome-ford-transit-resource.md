@@ -1,6 +1,6 @@
 ---
 name: New Awesome Ford Transit Resource
-about: This Template has all the information you need to provide for a link to be
+description: This Template has all the information you need to provide for a link to be
   added to the Awesome Ford Transit List.
 title: ''
 labels: 'new-resource'
