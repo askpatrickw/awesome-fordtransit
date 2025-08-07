@@ -1,0 +1,298 @@
+name: Create Resource PR
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  create-pr:
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pyyaml
+
+      - name: Parse issue and comments
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.issue;
+
+            // Get the issue body
+            const issueBody = context.payload.issue.body;
+
+            // Get all comments
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number
+            });
+
+            // Find the bot's analysis comment
+            const analysisComment = comments.data.find(comment =>
+              comment.user.login === 'github-actions[bot]' &&
+              comment.body.includes('Automated Analysis Results')
+            );
+
+            if (!analysisComment) {
+              throw new Error('Could not find analysis comment');
+            }
+
+            // Extract the formatted entry from the comment
+            const entryMatch = analysisComment.body.match(/```markdown\n([\s\S]+?)\n```/);
+            if (!entryMatch) {
+              throw new Error('Could not extract formatted entry');
+            }
+
+            const formattedEntry = entryMatch[1].trim();
+
+            // Extract category
+            const categoryMatch = analysisComment.body.match(/\*\*Category\*\*:\s*(.+)/);
+            const category = categoryMatch ? categoryMatch[1].trim() : '';
+
+            // Extract URL from issue
+            const urlMatch = issueBody.match(/### URL\s*\n\s*(.+)/);
+            const url = urlMatch ? urlMatch[1].trim() : '';
+
+            core.setOutput('formatted_entry', formattedEntry);
+            core.setOutput('category', category);
+            core.setOutput('url', url);
+            core.setOutput('issue_number', issue.number);
+
+            return {
+              formattedEntry,
+              category,
+              url,
+              issueNumber: issue.number
+            };
+
+      - name: Create branch
+        run: |
+          BRANCH_NAME="add-resource-issue-${{ steps.parse.outputs.issue_number }}"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout -b "$BRANCH_NAME"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+        id: branch
+
+      - name: Add entry to README
+        run: |
+          python3 - <<'EOF'
+          import re
+          import sys
+
+          # Read inputs
+          formatted_entry = """${{ steps.parse.outputs.formatted_entry }}"""
+          category = """${{ steps.parse.outputs.category }}"""
+
+          # Read README
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Map categories to section headers
+          category_map = {
+              'Community': '## Community',
+              'Dealers': '## Dealers',
+              'Engine Mods': '## Engine Mods',
+              'Exterior': '## Exterior Components',
+              'Exterior - Bumpers': '### Bumpers',
+              'Exterior - Front Hooks': '### Front Hooks',
+              'Exterior - Rear Shock Relocation': '### Rear Shock Relocation',
+              'Exterior - Skid Plates': '### Skid Plates',
+              'Exterior - Ski Boxes': '### Ski Boxes',
+              'Heating and AC': '## Heating and Air Conditioning',
+              'Interior': '## Interior Components',
+              'Maintenance': '## Maintenance',
+              'Plumbing': '## Plumbing',
+              'Suppliers': '## Suppliers to DIY Builders',
+              'Suspension and Lifts': '## Suspension and Lifts',
+              'Seat Swivels': '## Seat Swivels',
+              'Van Automation': '## Van Automation',
+              'Van Builds': '## Van Builds',
+              'Van Builders': '## Van Builders',
+              'Wheels and Tires': '## Wheels and Tires'
+          }
+
+          section_header = category_map.get(category, f'## {category}')
+
+          # Handle subcategories (e.g., "Exterior - Bumpers")
+          if ' - ' in category:
+              parent, sub = category.split(' - ', 1)
+              parent_header = category_map.get(parent, f'## {parent}')
+              sub_header = f'### {sub}'
+
+              # First find the parent section
+              parent_pattern = re.escape(parent_header)
+              parent_match = re.search(f'^{parent_pattern}$', content, re.MULTILINE)
+
+              if parent_match:
+                  # Find the subsection within the parent
+                  next_section = re.search(r'^##[^#]', content[parent_match.end():], re.MULTILINE)
+                  parent_section_end = parent_match.end() + next_section.start() if next_section else len(content)
+
+                  sub_pattern = re.escape(sub_header)
+                  sub_match = re.search(f'^{sub_pattern}$', content[parent_match.end():parent_section_end], re.MULTILINE)
+
+                  if sub_match:
+                      section_header = sub_header
+                      section_start = parent_match.end() + sub_match.start()
+                  else:
+                      print(f"Warning: Subcategory '{sub}' not found in '{parent}'")
+                      section_header = parent_header
+
+          # Find the section in the README
+          pattern = re.escape(section_header)
+          match = re.search(f'^{pattern}$', content, re.MULTILINE)
+
+          if not match:
+              print(f"Error: Could not find section '{section_header}' in README")
+              sys.exit(1)
+
+          section_start = match.end()
+
+          # Find the next section (to know where this section ends)
+          next_section = re.search(r'^#{1,3}\s', content[section_start:], re.MULTILINE)
+          if next_section:
+              section_end = section_start + next_section.start()
+          else:
+              section_end = len(content)
+
+          # Extract the section content
+          section_content = content[section_start:section_end]
+
+          # Find all list items in this section
+          list_items = re.findall(r'^- \[([^\]]+)\]', section_content, re.MULTILINE)
+
+          # Extract the site name from our new entry
+          new_entry_match = re.match(r'- \[([^\]]+)\]', formatted_entry)
+          if new_entry_match:
+              new_site_name = new_entry_match.group(1)
+          else:
+              print("Error: Invalid entry format")
+              sys.exit(1)
+
+          # Find where to insert (alphabetically)
+          insert_after = None
+          for item in list_items:
+              if item.lower() < new_site_name.lower():
+                  insert_after = item
+              else:
+                  break
+
+          # Build the new content
+          if insert_after:
+              # Find the line with insert_after and add our entry after it
+              pattern = re.escape(f'- [{insert_after}]')
+              line_match = re.search(f'^{pattern}.*$', section_content, re.MULTILINE)
+              if line_match:
+                  insert_pos = section_start + line_match.end()
+                  new_content = content[:insert_pos] + '\n' + formatted_entry + content[insert_pos:]
+              else:
+                  # Fallback: add at the beginning of the section
+                  new_content = content[:section_start] + '\n' + formatted_entry + content[section_start:]
+          else:
+              # Add at the beginning of the list (it's alphabetically first)
+              # Find the first list item or add after the section header
+              first_item = re.search(r'^- ', section_content, re.MULTILINE)
+              if first_item:
+                  insert_pos = section_start + first_item.start()
+                  new_content = content[:insert_pos] + formatted_entry + '\n' + content[insert_pos:]
+              else:
+                  # No items in section yet, add after header
+                  new_content = content[:section_start] + '\n\n' + formatted_entry + content[section_start:]
+
+          # Write the updated README
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(new_content)
+
+          print(f"✅ Added entry to {section_header} section")
+          EOF
+
+      - name: Commit changes
+        run: |
+          git add README.md
+          git commit -m "Add ${{ steps.parse.outputs.url }} to ${{ steps.parse.outputs.category }}
+
+          Closes #${{ steps.parse.outputs.issue_number }}"
+
+      - name: Push branch
+        run: |
+          git push origin "${{ steps.branch.outputs.branch_name }}"
+
+      - name: Create Pull Request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = ${{ steps.parse.outputs.issue_number }};
+            const branchName = '${{ steps.branch.outputs.branch_name }}';
+            const url = '${{ steps.parse.outputs.url }}';
+            const category = '${{ steps.parse.outputs.category }}';
+
+            const pr = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Add ${url} to ${category}`,
+              head: branchName,
+              base: 'main',
+              body: `## Description
+
+            This PR adds a new resource to the Awesome Ford Transit list.
+
+            **URL**: ${url}
+            **Category**: ${category}
+
+            ## Related Issue
+
+            Closes #${issueNumber}
+
+            ## Checklist
+
+            - [x] URL is accessible and Transit-related
+            - [x] No duplicate entries
+            - [x] Properly categorized
+            - [x] Alphabetically sorted within category
+
+            ---
+            *This PR was automatically generated from issue #${issueNumber}*`
+            });
+
+            // Comment on the issue
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `🎉 **Pull Request Created!**
+
+            PR #${pr.data.number} has been created to add this resource to the list.
+
+            [View Pull Request](${pr.data.html_url})`
+            });
+
+            // Add label to PR
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.data.number,
+              labels: ['auto-generated', 'new-resource']
+            });
+
+            console.log(`Created PR #${pr.data.number}`);
+            return pr.data;

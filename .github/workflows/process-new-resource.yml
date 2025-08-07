@@ -1,0 +1,267 @@
+name: Process New Resource
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+  models: read
+  pull-requests: write
+
+jobs:
+  process-resource:
+    if: contains(github.event.issue.labels.*.name, 'new-resource') || contains(github.event.issue.title, 'New Awesome Ford Transit Resource')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 pyyaml
+          gh extension install github/gh-models
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Parse issue body
+        id: parse
+        run: |
+          python3 - <<'EOF'
+          import re
+          import yaml
+          import json
+          import os
+
+          issue_body = """${{ github.event.issue.body }}"""
+
+          # Extract URL
+          url_match = re.search(r'### URL\s*\n\s*(.+)', issue_body)
+          url = url_match.group(1).strip() if url_match else ""
+
+          # Check if AI generation is requested
+          use_ai = "- [x] Use AI to generate description and category" in issue_body
+
+          # Extract manual description if provided
+          desc_match = re.search(r'### Description \(Optional if using AI\)\s*\n\s*(.+)', issue_body)
+          manual_desc = desc_match.group(1).strip() if desc_match else ""
+
+          # Extract manual category if provided
+          cat_match = re.search(r'### Category \(Optional if using AI\)\s*\n\s*(.+)', issue_body)
+          manual_cat = cat_match.group(1).strip() if cat_match else ""
+
+          # Extract override suggestion
+          override_match = re.search(r'### Override AI Suggestion \(Optional\)\s*\n\s*(.+)', issue_body, re.MULTILINE | re.DOTALL)
+          override = override_match.group(1).strip() if override_match else ""
+
+          # Set outputs
+          print(f"url={url}")
+          print(f"use_ai={use_ai}")
+          print(f"manual_desc={manual_desc}")
+          print(f"manual_cat={manual_cat}")
+          print(f"override={override}")
+
+          # Write to GITHUB_OUTPUT
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"url={url}\n")
+              f.write(f"use_ai={use_ai}\n")
+              f.write(f"manual_desc={manual_desc}\n")
+              f.write(f"manual_cat={manual_cat}\n")
+              f.write(f"override={override}\n")
+          EOF
+
+      - name: Validate URL
+        id: validate
+        run: |
+          python3 .github/scripts/validate_url.py "${{ steps.parse.outputs.url }}"
+        continue-on-error: true
+
+      - name: Check for duplicates
+        id: duplicates
+        run: |
+          python3 .github/scripts/check_duplicates.py "${{ steps.parse.outputs.url }}"
+        continue-on-error: true
+
+      - name: Generate with AI (if requested)
+        id: ai_generate
+        if: steps.parse.outputs.use_ai == 'True' && steps.validate.outcome == 'success'
+        run: |
+          URL="${{ steps.parse.outputs.url }}"
+
+          # Fetch page content
+          CONTENT=$(curl -sL "$URL" | head -c 10000)
+
+          # Generate description
+          DESCRIPTION=$(gh models run gpt-4.1 <<EOF
+          Analyze this Ford Transit product/service website and provide a ONE-LINE description (max 100 chars) highlighting key products/services:
+
+          URL: $URL
+          Content preview: $CONTENT
+
+          Format: Brief description of main offerings (e.g., "Bumpers, skid plates, and lift kits for Ford Transit")
+          EOF
+          )
+
+          # Determine category
+          CATEGORY=$(gh models run gpt-4.1 <<EOF
+          Categorize this Ford Transit resource into ONE of these categories:
+          - Community
+          - Dealers
+          - Engine Mods
+          - Exterior
+          - Exterior - Bumpers
+          - Exterior - Front Hooks
+          - Exterior - Rear Shock Relocation
+          - Exterior - Skid Plates
+          - Exterior - Ski Boxes
+          - Heating and AC
+          - Interior
+          - Maintenance
+          - Plumbing
+          - Suppliers
+          - Suspension and Lifts
+          - Seat Swivels
+          - Van Automation
+          - Van Builds
+          - Van Builders
+          - Wheels and Tires
+
+          URL: $URL
+          Content preview: $CONTENT
+
+          Return ONLY the category name, nothing else.
+          EOF
+          )
+
+          # Check for appropriate content
+          APPROPRIATE=$(gh models run gpt-4.1 <<EOF
+          Is this website appropriate for a Ford Transit community resource list? Check for:
+          - Transit-related content
+          - No inappropriate/offensive content
+          - Legitimate business/resource
+
+          URL: $URL
+          Content: $CONTENT
+
+          Reply with only "YES" or "NO" and a brief reason.
+          EOF
+          )
+
+          echo "description=$DESCRIPTION" >> $GITHUB_OUTPUT
+          echo "category=$CATEGORY" >> $GITHUB_OUTPUT
+          echo "appropriate=$APPROPRIATE" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Format entry
+        id: format
+        run: |
+          if [ "${{ steps.parse.outputs.use_ai }}" == "True" ]; then
+            DESC="${{ steps.ai_generate.outputs.description }}"
+            CAT="${{ steps.ai_generate.outputs.category }}"
+          else
+            DESC="${{ steps.parse.outputs.manual_desc }}"
+            CAT="${{ steps.parse.outputs.manual_cat }}"
+          fi
+
+          python3 .github/scripts/format_entry.py \
+            --url "${{ steps.parse.outputs.url }}" \
+            --description "$DESC" \
+            --category "$CAT" \
+            --output formatted_entry.md
+
+          FORMATTED=$(cat formatted_entry.md)
+          echo "entry<<EOF" >> $GITHUB_OUTPUT
+          echo "$FORMATTED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const url = '${{ steps.parse.outputs.url }}';
+            const useAi = '${{ steps.parse.outputs.use_ai }}' === 'True';
+            const validated = '${{ steps.validate.outcome }}' === 'success';
+            const isDuplicate = '${{ steps.duplicates.outcome }}' === 'failure';
+            const description = useAi ? '${{ steps.ai_generate.outputs.description }}' : '${{ steps.parse.outputs.manual_desc }}';
+            const category = useAi ? '${{ steps.ai_generate.outputs.category }}' : '${{ steps.parse.outputs.manual_cat }}';
+            const appropriate = '${{ steps.ai_generate.outputs.appropriate }}';
+            const formattedEntry = `${{ steps.format.outputs.entry }}`;
+
+            let comment = '## 🤖 Automated Analysis Results\n\n';
+
+            // URL Validation
+            if (!validated) {
+              comment += '❌ **URL Validation Failed**: The provided URL could not be accessed.\n\n';
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['invalid-url']
+              });
+              return;
+            } else {
+              comment += '✅ **URL Validation**: Successful\n';
+            }
+
+            // Duplicate Check
+            if (isDuplicate) {
+              comment += '⚠️ **Duplicate Check**: This URL may already exist in the list.\n\n';
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['duplicate']
+              });
+            } else {
+              comment += '✅ **Duplicate Check**: No duplicates found\n';
+            }
+
+            // Content Appropriateness (AI only)
+            if (useAi && appropriate) {
+              if (appropriate.startsWith('YES')) {
+                comment += '✅ **Content Check**: Appropriate for Ford Transit community\n';
+              } else {
+                comment += `⚠️ **Content Check**: ${appropriate}\n`;
+              }
+            }
+
+            // Proposed Entry
+            comment += '\n### 📝 Proposed Entry\n\n';
+            comment += '**Category**: ' + category + '\n';
+            comment += '**Description**: ' + description + '\n\n';
+            comment += '```markdown\n' + formattedEntry + '\n```\n\n';
+
+            // Override suggestion
+            const override = '${{ steps.parse.outputs.override }}';
+            if (override) {
+              comment += '### 💡 User Suggestion\n' + override + '\n\n';
+            }
+
+            // Next steps
+            comment += '### ⏭️ Next Steps\n\n';
+            comment += '1. Review the proposed entry above\n';
+            comment += '2. If it looks good, add the `approved` label to create a PR\n';
+            comment += '3. If changes are needed, add the `needs-changes` label and comment with feedback\n';
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: comment
+            });
+
+            // Add needs-review label
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-review']
+            });
