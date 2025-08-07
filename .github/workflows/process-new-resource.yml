@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   process-resource:
-    if: contains(github.event.issue.labels.*.name, 'new-resource') || contains(github.event.issue.title, 'New Awesome Ford Transit Resource')
+    if: contains(github.event.issue.labels.*.name, 'new-resource')
     runs-on: ubuntu-latest
 
     steps:
