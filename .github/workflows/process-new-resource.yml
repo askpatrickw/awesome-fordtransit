@@ -99,7 +99,7 @@ jobs:
           CONTENT=$(curl -sL "$URL" | head -c 10000)
 
           # Generate description
-          DESCRIPTION=$(gh models run gpt-4.1 <<EOF
+          DESCRIPTION=$(gh models run openai/gpt-4o-mini <<EOF
           Analyze this Ford Transit product/service website and provide a ONE-LINE description (max 100 chars) highlighting key products/services:
 
           URL: $URL
@@ -110,7 +110,7 @@ jobs:
           )
 
           # Determine category
-          CATEGORY=$(gh models run gpt-4.1 <<EOF
+          CATEGORY=$(gh models run openai/gpt-4o-mini <<EOF
           Categorize this Ford Transit resource into ONE of these categories:
           - Community
           - Dealers
@@ -141,7 +141,7 @@ jobs:
           )
 
           # Check for appropriate content
-          APPROPRIATE=$(gh models run gpt-4.1 <<EOF
+          APPROPRIATE=$(gh models run openai/gpt-4o-mini <<EOF
           Is this website appropriate for a Ford Transit community resource list? Check for:
           - Transit-related content
           - No inappropriate/offensive content
