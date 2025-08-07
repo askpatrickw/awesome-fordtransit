@@ -113,7 +113,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Format entry
+      - name: Format entry and update README
         id: format
         run: |
           if [ "${{ steps.parse.outputs.use_ai }}" == "True" ]; then
@@ -124,15 +124,90 @@ jobs:
             CAT="${{ steps.parse.outputs.manual_cat }}"
           fi
 
-          python3 .github/scripts/format_entry.py \
-            --url "${{ steps.parse.outputs.url }}" \
-            --description "$DESC" \
-            --category "$CAT" \
-            --output formatted_entry.md
+          URL="${{ steps.parse.outputs.url }}"
+          
+          # Create formatted entry using AI
+          ENTRY_LINE=$(gh models run openai/gpt-4o-mini "Create a markdown list entry for: URL=$URL, Description=$DESC. Format: '- [Site Name](url) Description'. Extract site name from URL domain.")
+          
+          # Dynamically find the section header using AI
+          README_HEADERS=$(grep '^##' README.md)
+          
+          SECTION_HEADER=$(gh models run openai/gpt-4o-mini "Find the exact section header that matches category '$CAT'.
 
-          FORMATTED=$(cat formatted_entry.md)
-          # Extract just the formatted entry line (after "Formatted entry:")
-          ENTRY_LINE=$(echo "$FORMATTED" | sed -n '/^Formatted entry:$/,$ p' | tail -n +2 | head -n 1)
+Available README section headers:
+$README_HEADERS
+
+Category to match: $CAT
+
+Rules:
+1. Match the category to the most appropriate section header
+2. For subcategories like 'Exterior - Bumpers', match to the subsection '### Bumpers'
+3. Return ONLY the exact header text (including ## or ###)
+4. If no perfect match, choose the closest one
+
+Examples:
+- 'Van Builds' → '## Van Builds'  
+- 'Exterior - Bumpers' → '### Bumpers'
+- 'Heating and AC' → '## Heating and Air Conditioning'")
+          
+          # Fallback: if AI response is empty or invalid, try fuzzy matching
+          if [ -z "$SECTION_HEADER" ] || [[ ! "$SECTION_HEADER" =~ ^##.* ]]; then
+            echo "AI section detection failed, using fuzzy matching fallback"
+            SECTION_HEADER=$(echo "$README_HEADERS" | grep -i "$CAT" | head -n1)
+            
+            # Final fallback: create a new section
+            if [ -z "$SECTION_HEADER" ]; then
+              SECTION_HEADER="## $CAT"
+              echo "Creating new section: $SECTION_HEADER"
+            fi
+          fi
+          
+          # Find section boundaries
+          SECTION_START=$(grep -n "^$(echo "$SECTION_HEADER" | sed 's/[[\.*^$()+?{|]/\\&/g')" README.md | head -n1 | cut -d: -f1)
+          
+          if [ -z "$SECTION_START" ]; then
+            echo "Error: Could not find section '$SECTION_HEADER' in README"
+            exit 1
+          fi
+          
+          # Find end of section (next header at same or higher level)
+          if [[ "$SECTION_HEADER" == "###"* ]]; then
+            # For subsections, find next ### or ## header
+            SECTION_END=$(tail -n +$((SECTION_START+1)) README.md | grep -n "^##" | head -n1 | cut -d: -f1)
+          else
+            # For main sections, find next ## header  
+            SECTION_END=$(tail -n +$((SECTION_START+1)) README.md | grep -n "^##" | head -n1 | cut -d: -f1)
+          fi
+          
+          if [ -n "$SECTION_END" ]; then
+            SECTION_END=$((SECTION_START + SECTION_END))
+          else
+            SECTION_END=$(wc -l < README.md)
+          fi
+          
+          # Extract just the target section
+          SECTION_CONTENT=$(sed -n "${SECTION_START},$((SECTION_END-1))p" README.md)
+          
+          # Use AI to add entry to just this section
+          UPDATED_SECTION=$(gh models run openai/gpt-4o-mini "Add this entry alphabetically to the section:
+
+Entry to add: $ENTRY_LINE
+
+Current section content:
+$SECTION_CONTENT
+
+Instructions:
+1. Add the entry in alphabetical order within the list items
+2. Return ONLY the updated section content
+3. Maintain exact formatting and structure
+4. Do not add explanations or comments")
+
+          # Create temporary file with updated content
+          head -n $((SECTION_START-1)) README.md > temp_readme.md
+          echo "$UPDATED_SECTION" >> temp_readme.md
+          tail -n +$SECTION_END README.md >> temp_readme.md
+          mv temp_readme.md README.md
+          
           echo "entry<<EOF" >> $GITHUB_OUTPUT
           echo "$ENTRY_LINE" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -220,3 +295,42 @@ jobs:
               issue_number: context.issue.number,
               labels: ['needs-review']
             });
+
+      - name: Create Pull Request
+        if: steps.validate.outcome == 'success' && steps.duplicates.outcome == 'success'
+        run: |
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Create branch and commit changes
+          BRANCH_NAME="add-resource-$(date +%s)"
+          git checkout -b "$BRANCH_NAME"
+          git add README.md
+          git commit -m "Add new Ford Transit resource from issue #${{ github.event.issue.number }}
+
+          ${{ steps.format.outputs.entry }}
+          
+          🤖 Generated with GitHub Actions"
+          
+          # Push branch
+          git push origin "$BRANCH_NAME"
+          
+          # Create PR
+          gh pr create \
+            --title "Add Ford Transit resource: ${{ steps.ai_generate.outputs.description || steps.parse.outputs.manual_desc }}" \
+            --body "Resolves #${{ github.event.issue.number }}
+
+          ## Summary
+          - Added new Ford Transit resource to **${{ steps.ai_generate.outputs.category || steps.parse.outputs.manual_cat }}** section
+          - Entry: \`${{ steps.format.outputs.entry }}\`
+          
+          ## Validation Results
+          - ✅ URL accessible
+          - ✅ No duplicates found
+          ${{ steps.ai_generate.outputs.appropriate && steps.ai_generate.outputs.appropriate.startsWith('YES') && '- ✅ Content appropriate' || '' }}
+          
+          🤖 Generated with GitHub Actions" \
+            --label "new-resource"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
