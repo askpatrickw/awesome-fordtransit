@@ -1,0 +1,1285 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "generated": null
+  },
+  "categories": [
+    {
+      "id": "community",
+      "title": "Community",
+      "parent": null,
+      "items": [
+        {
+          "title": "Ford Transit Forum",
+          "url": "https://fordtransit.org/forum/",
+          "description": "UK Site",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Ford Transit USA Form",
+          "url": "https://www.fordtransitusaforum.com/",
+          "description": "USA Site",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Mechanics StackExchange",
+          "url": "https://mechanics.stackexchange.com/questions/tagged/ford+transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Mobile Internet Resource Center",
+          "url": "https://www.rvmobileinternet.com/",
+          "description": "Mobile",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Overland Adventure Rallies",
+          "url": "https://overlandadventurerallies.com/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Overland Expo",
+          "url": "https://www.overlandexpo.com/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Vanlife Events and Meetups Calendar",
+          "url": "https://www.vanlifeoutfitters.com/vanlife-events-meetups/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "engine-mods",
+      "title": "Engine Mods",
+      "parent": null,
+      "items": [
+        {
+          "title": "InPower Electronics",
+          "url": "http://www.inpowerelectronics.com/products/high-idle-control",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "InterMotive",
+          "url": "https://intermotive.net/products-2/",
+          "description": "Fast idle system",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "exterior-components",
+      "title": "Exterior Components",
+      "parent": null,
+      "items": [
+        {
+          "title": "Adventure Ready",
+          "url": "https://goadventureready.com/search?q=Transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Akkon",
+          "url": "https://www.akkon.com/pages/product-result?rq=mk_ford~md_transit-350~yr_2022",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Avatar Offroad",
+          "url": "https://avataroffroad.com/ford/ford-transit-van-accessories/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Backwoods Adventure Mods",
+          "url": "https://backwoodsadventuremods.com/collections/transit-2020",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "CA Tuned",
+          "url": "https://catunedoffroad.com/collections/ford-transit",
+          "description": "has a front",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Curious Campervans",
+          "url": "https://curiouscampervans.com/collections/transit-products",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Ex-Guard",
+          "url": "https://ex-guard.com/van/ford-transit/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Fia",
+          "url": "https://gofia.com/?term_id=1815&year_id=7639&make=7640&model=7675&post_type=product&action=vpf-ymm-search",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Fiamma Awnings",
+          "url": "https://www.fiammausa.com/en/van-conversion",
+          "description": "One of the most",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Flarespace",
+          "url": "https://flarespace.com/",
+          "description": "increase interior space by adding \"bump outs\"",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Flatline Van Co",
+          "url": "https://flatlinevanco.com/collections/transit",
+          "description": "Racks, ladders,",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Koolands",
+          "url": "https://koolands.com/search?q=Transit&options%5Bprefix%5D=last",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Lamin-X",
+          "url": "https://lamin-x.com/search-magic.html#query=all&filter_auto-moto.filter=Automotive&filter_year.filter=2022&filter_make.filter=Ford&filter_Model.filter=Transit%20Van&sort_method=selling_price.filter/asc",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Lazer Lamps",
+          "url": "https://www.triple-r-lights.com/ford-transit-2015-grille-kit.html",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Luverne Truck",
+          "url": "https://www.luvernetruck.com/all-products/2022/ford/transit-350/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Motion Windows",
+          "url": "https://www.motionwindows.com/ford-transit-van-aftermarket-conversion-windows/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "OMAC Shop",
+          "url": "https://omacshop.com/collections/transit-350/?constraint=year_2022",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Phlo System",
+          "url": "https://phlosystem.com/en/collections/transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Rigwell",
+          "url": "https://rigwell.com/collections/transit",
+          "description": "Decorative Wraps and Flarespace",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Steel Skid Plate",
+          "url": "https://www.skid-plate.com/ford-transit-skid-plate",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "TecVan",
+          "url": "https://tecvan.co/collections/shop-transit",
+          "description": "Racks and boxes",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Terrax Innovations",
+          "url": "https://www.terraxinnovations.com/collections/ford-transit-collection",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "The Mule Carrier",
+          "url": "https://thevanmart.com/products/the-mule-carrier-gondola-rack",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Transit Offroad",
+          "url": "https://transitoffroad.com",
+          "description": "lift kits, skid plates, bumpers",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Unaka Gear Co",
+          "url": "https://unakagearco.com/collections/ford-transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Windows Direct",
+          "url": "https://vanwindowsdirect.com/collections/medium-high-roof",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "VanCentric",
+          "url": "https://www.etsy.com/listing/1344207545/front-light-plate-ford-transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "VanCompass skid plates",
+          "url": "https://vancompass.com/collections/transit-awd/skid-plate",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Vanvision",
+          "url": "https://www.sprintervanvision.com/product-page/ford-transit-vanvision",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Westin Automotive",
+          "url": "https://www.westinautomotive.com/products/2022/ford/transit-350",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "bumpers",
+      "title": "Bumpers",
+      "parent": null,
+      "items": [
+        {
+          "title": "Aluminess Hidden Winch Mount",
+          "url": "https://www.aluminess.com/products/hidden-winch-mount-ford-transit-2020/?sku=210547-FS",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Backwoods Adventure Front and Rear Bumpers",
+          "url": "https://backwoodsadventuremods.com/collections/ford-1",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "CATuned Front Bumper",
+          "url": "https://catunedoffroad.com/collections/ford-transit/products/catuned-off-road-transit-bumper",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Owl Vans - Pismo Bumper with winch",
+          "url": "https://owlvans.com/collections/ford-transit/products/pismo-bumper-ford-transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "TecVan - CATuned Off-Road Ford Transit Bumper",
+          "url": "https://tecvan.co/products/catuned-off-road-ford-transit-bumper",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Transit Off-Road",
+          "url": "https://transitoffroad.com/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Compass Front Winch",
+          "url": "https://vancompass.com/products/front-winch-bumper-hd-compatible-ford-transit-by-van-compass",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "front-hooks",
+      "title": "Front Hooks",
+      "parent": null,
+      "items": [
+        {
+          "title": "Quadvan",
+          "url": "https://quadvan.com/transit-accessories",
+          "description": "Receiver hooks for pre-2020",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Compass",
+          "url": "https://vancompass.com/products/van-compass-ford-transit-tow-hook-2015",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "rear-shock-relocation",
+      "title": "Rear Shock Relocation",
+      "parent": null,
+      "items": [
+        {
+          "title": "Quadvan",
+          "url": "https://quadvan.com/transit-accessories",
+          "description": "Rear shock relocation",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Transit Offroad",
+          "url": "https://transitoffroad.com/product/shock-relocation-kit/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Compass",
+          "url": "https://vancompass.com/products/van-compass-ford-transit-2013-present-rear-high-clearance-shock-extension-brackets",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "skid-plates",
+      "title": "Skid Plates",
+      "parent": null,
+      "items": [
+        {
+          "title": "CA Tuned",
+          "url": "https://catunedoffroad.com/collections/skid-plates/products/catuned-2021-ford-transit-skid-plate?variant=45743703228675",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Go Adventure Ready",
+          "url": "https://goadventureready.com/products/2015-ford-transit-intercooler-skid-plate",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Limitless Van",
+          "url": "https://www.limitlessvan.com/product-page/ford-transit-intercooler-skid-plate",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "NW Overland",
+          "url": "https://northwest-overland.com/product/ford-transit-front-skid-plate-2014-2023-transit-van-150-250-350/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Owl Vans",
+          "url": "https://owlvans.com/products/intercooler-skid-plate-transit-2015-van-compass",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Quad Van",
+          "url": "https://quadvan.com/transit-accessories",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Steel Skid Plate",
+          "url": "https://www.skid-plate.com/ford-transit-skid-plate",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Transit Offroad",
+          "url": "https://transitoffroad.com/product/front-skid-plate/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Compass",
+          "url": "https://vancompass.com/collections/transit-awd/skid-plate",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "ski-boxes",
+      "title": "Ski Boxes",
+      "parent": null,
+      "items": [
+        {
+          "title": "Avatar Offroad",
+          "url": "https://avataroffroad.com/ford/ford-transit-van-accessories/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Backland Gear",
+          "url": "https://backlandgear.com/en-us/products/ox-ski-board-box",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Flatline Van Co",
+          "url": "https://flatlinevanco.com/products/van-ski-locker",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Koolands",
+          "url": "https://koolands.com/search?q=Transit&options%5Bprefix%5D=last",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Phlo System",
+          "url": "https://phlosystem.com/en/products/coffre-de-ski",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Rover Vans",
+          "url": "https://rovervans.com/products/rover-vans-ski-box-coming-soon",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Sandy Vans",
+          "url": "https://sandyvans.com/collections/exterior-products/products/boost-box",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Slope Design",
+          "url": "https://slopedesign.net/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "TecVan",
+          "url": "https://tecvan.co/collections/shop-transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Tips Up Rack",
+          "url": "https://tipsupracks.com/shop/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "heating-and-air-conditioning",
+      "title": "Heating and Air Conditioning",
+      "parent": null,
+      "items": [
+        {
+          "title": "Cruise N Comfort USA",
+          "url": "https://www.cruisencomfortusa.com/",
+          "description": "12/24/48 Volt Split AC system",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "EsparParts.com",
+          "url": "https://esparparts.com/espar-m2b4l-commercial-ford-transit-p-25562.html",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "HEATSO",
+          "url": "https://www.heatso.com/ford-transit-heaters/",
+          "description": "Transit Webasto and",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Rixen's Enterprises, INC.",
+          "url": "https://rixens.com/",
+          "description": "Air and Coolant based systems",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Undermount AC",
+          "url": "https://undermountac.com/",
+          "description": "Split AC system with the compressor",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "interior-components",
+      "title": "Interior Components",
+      "parent": null,
+      "items": [
+        {
+          "title": "A-Tach Mounts",
+          "url": "https://www.atachmounts.com/Transit-Van_c_100.html",
+          "description": "Phone and",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Adventure Ready",
+          "url": "https://goadventureready.com/search?q=Transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Avatar Offroad",
+          "url": "https://avataroffroad.com/ford/ford-transit-van-accessories/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Curious Campervans",
+          "url": "https://curiouscampervans.com/collections/transit-products",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Dash Designs",
+          "url": "https://www.dashdesigns.com/c-1337840-dash-covers.html",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Discount Van\\Truck",
+          "url": "https://www.discountvantruck.com/discounttransitaccessories/transit.htm",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Go Code Overland",
+          "url": "https://gocodeoverland.com/collections/transit",
+          "description": "Blob",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Laguna Table Mounts",
+          "url": "https://www.lagunusa.com/",
+          "description": "\"The\" hashtag vanlife",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Lost Hiway Customs",
+          "url": "https://losthiwaycustoms.com/search?q=Transit&options%5Bprefix%5D=last",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Nautilus Retracting Shower Door",
+          "url": "https://shop.stoett.com/nautilus-retractable-shower-doors-for-rv/?attribute_pa_application=rv",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Paradigm Van Conversions",
+          "url": "https://www.paradigmvanconversions.com/shop/Ford-Trasit-Lagun-Table-B-Pillar-Adapter-p366112059",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Rigwell",
+          "url": "https://rigwell.com/collections/transit",
+          "description": "Cabinets and galley components",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "S&B",
+          "url": "https://sbfilters.com/pages/search?query=Transit",
+          "description": "Several kinds of water",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "TD Vans Etsy",
+          "url": "https://www.etsy.com/listing/1096739565/ford-transit-lagun-table-b-pillar-mount",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Tectonic Overland",
+          "url": "https://tectonicoverland.com/collections/all-products",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "TecVan",
+          "url": "https://tecvan.co/collections/shop-transit",
+          "description": "Shower pans, tanks and other",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Terrawagon",
+          "url": "https://www.terrawagen.com/collections/ford-transit",
+          "description": "has",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Bling",
+          "url": "https://www.etsy.com/shop/vanblingdotcom",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "VANCAMP",
+          "url": "https://vanncamp.com/ford-transit-van-accessories/",
+          "description": "Window covers",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Vancillary",
+          "url": "https://vancillary.com/collections/ford-transit",
+          "description": "Headliner Shelf",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Vanlife Collective",
+          "url": "https://thevanlifecollective.com/shop/",
+          "description": "Kits for Cabinets,",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "White Top Adventures",
+          "url": "https://whitetopadventures.com/collections/ford-transit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Window Vent Screens",
+          "url": "https://www.etsy.com/listing/1533103522/ford-transit-van-window-vent-screen",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "Maintenance",
+      "parent": null,
+      "items": [
+        {
+          "title": "12 Volt Solutions",
+          "url": "https://www.12volt.solutions/products/2020-ford-transit-remote-start-plug-play-kit",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "How to adjust your slider",
+          "url": "https://youtu.be/xoy2mQh8gi8",
+          "description": "(YouTube)",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "plumbing",
+      "title": "Plumbing",
+      "parent": null,
+      "items": [
+        {
+          "title": "Gregoryx's research on compatible undermount tanks",
+          "url": "https://www.fordtransitusaforum.com/threads/nw-conversions-water-tank-wastes-12-gallons-when-used-in-a-transit.90361/#post-1184317",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "suppliers-to-diy-builders",
+      "title": "Suppliers to DIY Builders",
+      "parent": null,
+      "items": [
+        {
+          "title": "Adventure Van Company",
+          "url": "https://diyadventurevanco.com/collections/2015-ford-transit-insulating-window-curtains",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Agile Off Road",
+          "url": "https://agileoffroad.com/product-category/ford-transit-parts/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "AVC RIG",
+          "url": "https://avcrig.com/",
+          "description": "Ready to install subfloors, roof racks and",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Campervan-HQ",
+          "url": "https://www.campervan-hq.com/pages/search-results?q=Transit&",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "CR Laurence",
+          "url": "https://www.crlaurence.com",
+          "description": "Windows for your van build",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "DIY Van",
+          "url": "https://diyvan.com/collections/transit",
+          "description": "run by Hein, DIY Van has",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Forscan",
+          "url": "https://forscan.org/",
+          "description": "FORScan is an ODB-ii software scanner for",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "FreedomVanGo's Van Parts Warehouse",
+          "url": "https://vanpartswarehouse.com/pages/transit-all-categories",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Luno",
+          "url": "https://lunolife.com/",
+          "description": "Among the Transit specific products Luno makes a",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Overland Gear Guy",
+          "url": "https://overlandgearguy.com/collections/ford-transit-van",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Owl Vans",
+          "url": "https://owlvans.com/collections/ford-transit",
+          "description": "Several Transit",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Rapid3D",
+          "url": "https://www.rapid3d.ca/shop",
+          "description": "3D Scans of your Ford Transit you",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Stelletek",
+          "url": "https://www.stelletek.com/store",
+          "description": "Interior window covers.",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Strawfoot Handmade",
+          "url": "https://strawfoothandmade.com/products/window-covers-ford-transit-van-medium-high-roof",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Tern Overland",
+          "url": "https://www.ternoverland.com/",
+          "description": "Windows, roof hatches, doors",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Thunderbolt Deadbolts",
+          "url": "https://www.thunderboltlocks.com/ford-transit",
+          "description": "add",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Essentials",
+          "url": "https://www.vanessential.com/",
+          "description": "Interior window covers.",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Upgrades",
+          "url": "https://vanupgrades.com",
+          "description": "Many accessories and components",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Vanlife Outfitters",
+          "url": "https://www.vanlifeoutfitters.com/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Vanmade Gear",
+          "url": "https://vanmadegear.com/",
+          "description": "Interior window covers.",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Vanmart",
+          "url": "https://thevanmart.com/",
+          "description": "Many excellent products out of",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "suspension-and-lifts",
+      "title": "Suspension and Lifts",
+      "parent": null,
+      "items": [
+        {
+          "title": "Active Suspension",
+          "url": "https://activesuspension.com/pages/ras",
+          "description": "Roadmaster",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "HD Coil Springs",
+          "url": "https://www.hdcoilsprings.com/product/2015-2023-ford-transit-150-transit-250-transit-350-front-coil-springs-pair-2wd-35-capacity/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Quigley QLift",
+          "url": "https://www.quigley4x4.com/products/qlift/",
+          "description": "\"The QLift is a",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Sprinter Store",
+          "url": "https://www.sprinterstore.com/ford/",
+          "description": "Despite the name,",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Transit Offroad Lift kits",
+          "url": "transitoffroad",
+          "description": "with and without camber adjustment",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Traxda Lift Kits",
+          "url": "https://traxdaliftkits.com/product-category/ford-transit/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Compass",
+          "url": "https://vancompass.com/",
+          "description": "Has lift kits for AWD and RWD",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Weldtech Designs",
+          "url": "https://weldtecdesigns.com/product/wtd-ford-transit-3-spindle/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "seat-swivels",
+      "title": "Seat Swivels",
+      "parent": null,
+      "items": [
+        {
+          "title": "Alpine Mechanisms",
+          "url": "https://alpinemechanisms.com/products/2013-ford-transit-seat-swivel",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Discount Van\\Truck Swivels",
+          "url": "https://www.discountvantruck.com/transitswivelbases/transitseatadaptersswivels.htm",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Scopema",
+          "url": "https://scopema.com/en/",
+          "description": "Swivels and custom seats",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "SprinterSwivel.ca",
+          "url": "https://www.sprinterswivel.ca/swivels/25-96-heavy-duty-seat-swivel-for-chevy-express-1997-2021-ced007cep008.html#/1-make-ford/29-model-transit/38-year-2014_2022/45-side-ftd003driver",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Swivels R Us",
+          "url": "https://swivelsrus.com/transit_swivels.php",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "van-builds",
+      "title": "Van Builds",
+      "parent": null,
+      "items": [
+        {
+          "title": "Far Out Ride",
+          "url": "https://faroutride.com/",
+          "description": "Very well documented van build with",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Greenstello Van 2.0",
+          "url": "https://www.greenstello.com/",
+          "description": "Well documented build",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "van-automation",
+      "title": "Van Automation",
+      "parent": null,
+      "items": [
+        {
+          "title": "Technical van automation discussion",
+          "url": "https://www.fordtransitusaforum.com/threads/van-automation-technical-discussion-only.89007/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Using Home Assistant",
+          "url": "https://www.fordtransitusaforum.com/threads/home-assistant-for-van-automation.90215/",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "van-builders",
+      "title": "Van Builders",
+      "parent": null,
+      "items": [
+        {
+          "title": "Everlanders on YouTube",
+          "url": "https://www.youtube.com/c/Everlanders/about",
+          "description": "Jason &",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Grit Overland",
+          "url": "https://gritoverland.com/",
+          "description": "Washougal, WA",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Humble Road",
+          "url": "https://www.humbleroad.tv/",
+          "description": "Excellent video content",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "wheels-and-tires",
+      "title": "Wheels and Tires",
+      "parent": null,
+      "items": [
+        {
+          "title": "Black Rhino Sequoia",
+          "url": "https://www.blackrhinowheels.com/off-road-wheels-rims-sequoia.php",
+          "description": "",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        }
+      ]
+    }
+  ]
+}
