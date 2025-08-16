@@ -1,41 +1,42 @@
-# Contribution Guidelines
+# Contributing
 
-Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md).
-By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
-## Adding an awesome list
+We accept contributions via GitHub Issues only. The list is generated from structured data and maintained by automation; proposing changes through Issues keeps everything consistent and easier to review.
 
-Please ensure your pull request adheres to the [list guidelines](pull_request_template.md).
+## Add a new resource (Issues only)
 
-## Creating your own awesome list
+Use our issue template to suggest a new link/resource:
 
-To create your own list, check out the [instructions](create-list.md).
+- [New resource template](https://github.com/askpatrickw/awesome-fordtransit/issues/new?template=NEW-LINK.yml)
 
-## Adding something to an awesome list
+What to include in the issue:
 
-If you have something awesome to contribute to an awesome list, this is how you
-do it.
+- URL to the Transit-specific page (use the site’s search if needed to deep-link).
+- Optional: Check the “Use AI to generate description and category” box in the form.
+- Optional: Your own description and/or category if you want to override the AI suggestion.
 
-You'll need a [GitHub account](https://github.com/join)!
+What happens next:
 
-1. Access the awesome list's GitHub page. For example:
-    [https://github.com/askpatrickw/awesome-fordtransit/](https://github.com/askpatrickw/awesome-fordtransit/)
-2. Click on the `readme.md` file: ![Step 2 Click on Readme.md](https://cloud.githubusercontent.com/assets/170270/9402920/53a7e3ea-480c-11e5-9d81-aecf64be55eb.png)
-3. Now click on the edit icon. ![Step 3 - Click on Edit](https://cloud.githubusercontent.com/assets/170270/9402927/6506af22-480c-11e5-8c18-7ea823530099.png)
-4. You can start editing the text of the file in the in-browser editor. Make
-    sure you follow guidelines above. You can use
-    [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
-    ![Step 4 - Edit the file](https://cloud.githubusercontent.com/assets/170270/9402932/7301c3a0-480c-11e5-81f5-7e343b71674f.png)
-5. Say why you're proposing the changes, and then click on "Propose file change".
-    ![Step 5 - Propose Changes](https://cloud.githubusercontent.com/assets/170270/9402937/7dd0652a-480c-11e5-9138-bd14244593d5.png)
-6. Submit the [pull request](https://help.github.com/articles/using-pull-requests/)!
+- A maintainer will review and validate the submission (and AI suggestions if selected).
+- If accepted, we’ll add it to our data source and the README will be updated automatically by our workflows.
 
-## Updating your Pull Request
+## Request a change or report a problem
 
-Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request
-before it is included. This is normally due to spelling errors or because your
-PR didn't match the awesome-* list guidelines.
+Open an Issue for:
 
-[Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
-is a write up on how to change a Pull Request, and the different ways you can do
-that.
+- Updating or removing an existing entry
+- Category suggestions
+- Broken links or other problems
+
+Start here: [Issue choices](https://github.com/askpatrickw/awesome-fordtransit/issues/new/choose)
+
+## Why we don’t accept PRs
+
+- The README is generated from structured data (e.g., resources.json) using scripts and workflows.
+- Direct edits via PRs would be overwritten and are harder to validate.
+- Issues provide a clear, structured review process and keep automation happy.
+
+## Thanks
+
+Thanks for helping make the Awesome Ford Transit list better. We appreciate every suggestion and report!

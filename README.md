@@ -1,7 +1,6 @@
 # Awesome Ford Transit
 
-This list is for all owners of [Ford](https://www.ford.com/) Transits. This
-site, and its maintainers have no official connection to Ford.
+This list is for all owners of [Ford](https://www.ford.com/) Transits. This site, and its maintainers have no official connection to Ford.
 
 Please follow the [contributing guide](contributing.md) and
 [code of conduct](code-of-conduct.md).
@@ -251,17 +250,3 @@ Please follow the [contributing guide](contributing.md) and
 - [Black Rhino Sequoia](https://www.blackrhinowheels.com/off-road-wheels-rims-sequoia.php)
 
 <!-- END:RESOURCES -->
-## Resource Addition Lifecycle
-
-1. Issue opened with label `new-resource`.
-2. Analyze workflow comments classification; labels added: `resource-analyzed`, `needs-review`.
-3. Maintainer reviews and adds `approved` label if acceptable.
-4. Approval workflow runs idempotency check, updates resources.json, regenerates
-  README, validates schema & sync, opens PR.
-5. PR merged; issue closed (optionally add `resource-merged`).
-
-Guidelines:
-
-- Do not edit between START/END markers manually; run generation script instead.
-- Manual edits: modify resources.json then run generate_readme.py.
-- CI will fail if README list drifts from resources.json.
