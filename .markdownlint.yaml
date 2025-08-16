@@ -5,11 +5,7 @@
 default: true
 
 # MD013/line-length - Line length
-MD013:
-  # Include tables
-  tables: false
-  # Set line length to 100
-  line_length: 100
+MD013: false
 
 # MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
 MD024:
