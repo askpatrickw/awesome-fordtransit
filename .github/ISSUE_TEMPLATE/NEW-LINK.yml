@@ -20,7 +20,6 @@ body:
     id: use_ai
     attributes:
       label: AI Generation
-      default: true
       description: Would you like AI to automatically generate the description and category?
       options:
         - label: Use AI to generate description and category
