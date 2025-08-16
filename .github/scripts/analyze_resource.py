@@ -40,7 +40,8 @@ User description: {manual_desc}
 Page snippet: {snippet}
 JSON only.
 """)
-open('prompt.txt','w').write(prompt)
+with open('prompt.txt','w') as f:
+    f.write(prompt)
 model_json={}
 try:
     proc=subprocess.run(['gh','models','run','openai/gpt-4o-mini','--prompt-file','prompt.txt'],capture_output=True,text=True,check=False)

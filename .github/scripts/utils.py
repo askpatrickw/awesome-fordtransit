@@ -39,7 +39,7 @@ def normalize_url(url: str) -> str:
         base,qs=url.split('?',1)
         kept=[p for p in qs.split('&') if not p.lower().startswith(('utm_','ref='))]
         url=base+('?'+'&'.join(kept) if kept else '')
-    if url.endswith('/') and '/' in url[:-1]: url=url[:-1]
+    if url.endswith('/') and url.count('/') > 3: url=url[:-1]
     return url
 
 def add_resource(data: Dict[str, Any], *, title:str,url:str,description:str,category:str,source_issue:int|None,approve:bool):

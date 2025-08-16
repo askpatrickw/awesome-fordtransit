@@ -45,7 +45,6 @@ def main():
     ok,msg=add_resource(data,title=a.title,url=a.url,description=a.description,category=a.category,source_issue=a.issue,approve=a.approve)
     if not ok:
         print(msg)
-        print('::set-output name=status::duplicate')
         sys.exit(0)
     save_resources(path,data)
     print(msg)
