@@ -71,15 +71,61 @@ JSON only.
 with open('prompt.txt','w') as f:
     f.write(prompt)
 model_json={}
-try:
-    # Pass prompt directly; some gh versions don't support --prompt-file
-    proc=subprocess.run(
-        ['gh','models','run','openai/gpt-4o-mini', prompt],
-        capture_output=True,
-        text=True,
-        check=False
-    )
-    raw=(proc.stdout or '').strip()
+
+def _call_model_via_curl(prompt_text: str) -> str:
+    """Call GitHub Models chat/completions via curl and return the content string.
+    Requires GITHUB_TOKEN (or GH_TOKEN) in env. Returns empty string on failure.
+    """
+    token = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
+    if not token:
+        return ''
+    payload = {
+        'model': 'openai/gpt-4o-mini',
+        'messages': [
+            {'role': 'user', 'content': prompt_text}
+        ],
+        # Keep responses concise and deterministic-ish
+        'temperature': 0.2,
+    }
+    args = [
+        'curl','-sS','-f',
+        'https://models.github.ai/inference/chat/completions',
+        '-H','Content-Type: application/json',
+        '-H',f'Authorization: Bearer {token}',
+        '--data-binary','@-'
+    ]
+    try:
+        proc = subprocess.run(
+            args,
+            input=json.dumps(payload),
+            capture_output=True,
+            text=True,
+            check=False
+        )
+        if proc.returncode != 0:
+            # curl error; include stderr for local debugging
+            err = (proc.stderr or '').strip()
+            if err:
+                print(f"curl models error: {err}")
+            return ''
+        body = (proc.stdout or '').strip()
+        try:
+            resp = json.loads(body)
+        except Exception:
+            return ''
+        # Extract content text similar to OpenAI schema
+        choices = resp.get('choices') or []
+        if not choices:
+            return ''
+        msg = choices[0].get('message') or {}
+        content = msg.get('content') or ''
+        return content
+    except FileNotFoundError:
+        # curl not available
+        return ''
+
+raw = _call_model_via_curl(prompt)
+if raw:
     # Extract first JSON object if array or extra text present
     m=re.search(r'\{.*?\}', raw, re.S)
     if m:
@@ -87,8 +133,6 @@ try:
             model_json=json.loads(m.group(0))
         except Exception:
             pass
-except FileNotFoundError:
-    pass
 
 # Fallback if model_json is empty or missing critical fields
 def safe_get(d,k,default=''):
