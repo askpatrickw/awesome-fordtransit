@@ -41,6 +41,8 @@ jobs:
           cache-dependency-path: '**/requirements-pr.txt'
 
       - run: pip install -r requirements-pr.txt
+      - name: Install validation deps
+        run: pip install jsonschema
 
       - name: Log Pre-commit Versions
         run: |
@@ -49,3 +51,7 @@ jobs:
 
       - name: Run pre-commit
         run: pre-commit run --all-files
+      - name: Validate resources schema
+        run: python .github/scripts/validate_resources.py
+      - name: Check README sync
+        run: python .github/scripts/check_readme_sync.py

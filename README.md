@@ -29,6 +29,8 @@ Please follow the [contributing guide](contributing.md) and
   - [Van Builders](#van-builders)
   - [Wheels and Tires](#wheels-and-tires)
 
+<!-- START:RESOURCES -->
+
 ## Car Wash
 
 - Seattle: [Car Wash Palace - Greenwood](https://bestseattlecarwash.com/locations/greenwood/)
@@ -411,3 +413,19 @@ categorize the links properly.
   and intended to be an aggressive 16x8" +60 fitment. Black Rhino Sequoia for
   Ford Transit AWD requires a 2 inch lift, minor trimming, and a 245/75R16 tire
   is recommended."
+
+<!-- END:RESOURCES -->
+## Resource Addition Lifecycle
+
+1. Issue opened with label `new-resource`.
+2. Analyze workflow comments classification; labels added: `resource-analyzed`, `needs-review`.
+3. Maintainer reviews and adds `approved` label if acceptable.
+4. Approval workflow runs idempotency check, updates resources.json, regenerates
+  README, validates schema & sync, opens PR.
+5. PR merged; issue closed (optionally add `resource-merged`).
+
+Guidelines:
+
+- Do not edit between START/END markers manually; run generation script instead.
+- Manual edits: modify resources.json then run generate_readme.py.
+- CI will fail if README list drifts from resources.json.

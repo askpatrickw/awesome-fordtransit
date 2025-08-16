@@ -1,4 +1,5 @@
 {
+  "$schema": "./resources.schema.json",
   "meta": {
     "schemaVersion": 1,
     "generated": null
