@@ -72,12 +72,21 @@ with open('prompt.txt','w') as f:
     f.write(prompt)
 model_json={}
 try:
-    proc=subprocess.run(['gh','models','run','openai/gpt-4o-mini','--prompt-file','prompt.txt'],capture_output=True,text=True,check=False)
-    raw=proc.stdout.strip()
-    m=re.search(r'\{.*?\}',raw,re.S)
+    # Pass prompt directly; some gh versions don't support --prompt-file
+    proc=subprocess.run(
+        ['gh','models','run','openai/gpt-4o-mini', prompt],
+        capture_output=True,
+        text=True,
+        check=False
+    )
+    raw=(proc.stdout or '').strip()
+    # Extract first JSON object if array or extra text present
+    m=re.search(r'\{.*?\}', raw, re.S)
     if m:
-        try: model_json=json.loads(m.group(0))
-        except Exception: pass
+        try:
+            model_json=json.loads(m.group(0))
+        except Exception:
+            pass
 except FileNotFoundError:
     pass
 
