@@ -4,6 +4,39 @@ Outputs: url, manual_desc, title, description, category, appropriate
 """
 import os,re,json,subprocess,textwrap
 
+# --- Bot-protection handling (e.g., Cloudflare "Just a moment...") ---
+CLOUDFLARE_MARKERS = (
+    "Just a moment...",
+    "Enable JavaScript and cookies to continue",
+    "cf-browser-verification",
+    "cf-chl-widget",
+    "attention required",
+)
+
+def looks_like_cloudflare(text: str) -> bool:
+    if not text:
+        return False
+    t = (text or "")[:4096]
+    return any(m.lower() in t.lower() for m in CLOUDFLARE_MARKERS)
+
+def _normalize_host(u: str) -> str:
+    # For r.jina.ai we need http://host/path without protocol duplication
+    return u.replace("https://", "").replace("http://", "")
+
+def fetch_via_jina(u: str, timeout: int = 20, ua: str = "awesome-fordtransit-bot/1.0") -> str:
+    """
+    Fetch a rendered text mirror using Jina Reader as a lightweight fallback.
+    Returns plain text (not HTML).
+    """
+    try:
+        import requests
+        rurl = f"https://r.jina.ai/http://{_normalize_host(u)}"
+        r = requests.get(rurl, timeout=timeout, headers={"User-Agent": ua})
+        r.raise_for_status()
+        return r.text
+    except Exception:
+        return ""
+
 ISSUE_BODY=os.environ.get('ISSUE_BODY','')
 GITHUB_OUTPUT=os.environ.get('GITHUB_OUTPUT')
 
@@ -32,28 +65,51 @@ url=grab('URL')
 manual_desc=grab('Description (Optional if using AI)')
 
 def fetch(u):
-    """Return cleaned text snippet (for prompting)."""
-    if not u: return ''
+    """Return cleaned text snippet (for prompting). Falls back to Jina mirror when blocked."""
+    if not u:
+        return ''
     try:
         import requests
-        r=requests.get(u,timeout=20,headers={"User-Agent":"awesome-fordtransit-bot/1.0"})
-        txt=r.text
+        r = requests.get(u, timeout=20, headers={"User-Agent":"awesome-fordtransit-bot/1.0",
+                                                 "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                                 "Accept-Language":"en-US,en;q=0.9"})
+        txt = r.text
+        if looks_like_cloudflare(txt):
+            # Fallback to rendered text mirror
+            txt = fetch_via_jina(u) or ''
     except Exception:
-        return ''
-    txt=re.sub(r'<(script|style)[^>]*>.*?</\1>',' ',txt,flags=re.I|re.S)
-    txt=re.sub(r'<[^>]+>',' ',txt)
-    txt=re.sub(r'\s+',' ',txt)
+        txt = fetch_via_jina(u) or ''
+    # Strip tags if HTML slipped through; normalize whitespace
+    txt = re.sub(r'<(script|style)[^>]*>.*?</\1>',' ',txt,flags=re.I|re.S)
+    txt = re.sub(r'<[^>]+>',' ',txt)
+    txt = re.sub(r'\s+',' ',txt)
     return txt[:4000]
 
 def fetch_html(u):
-    """Return raw HTML for metadata extraction."""
-    if not u: return ''
+    """Return raw HTML for metadata extraction. If blocked, synthesize minimal HTML from Jina text."""
+    if not u:
+        return ''
+    # Try direct first
     try:
         import requests
-        r=requests.get(u,timeout=20,headers={"User-Agent":"awesome-fordtransit-bot/1.0"})
-        return r.text
+        r = requests.get(u, timeout=20, headers={"User-Agent":"awesome-fordtransit-bot/1.0",
+                                                 "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                                 "Accept-Language":"en-US,en;q=0.9"})
+        html = r.text
+        if not looks_like_cloudflare(html):
+            return html
     except Exception:
+        html = ''
+    # If blocked or error, try Jina text and synthesize a tiny HTML doc for meta extraction
+    text = fetch_via_jina(u) or ''
+    text = re.sub(r'\s+', ' ', text).strip()
+    if not text:
         return ''
+    # Title: first ~80 chars from beginning
+    title_guess = (text.split('.', 1)[0] or text[:80]).strip()
+    desc_guess = text[:300].strip()
+    synth = f'<html><head><title>{title_guess}</title><meta name="description" content="{desc_guess}"></head><body></body></html>'
+    return synth
 
 snippet=fetch(url)
 prompt=textwrap.dedent(f"""You are a strict JSON generator for a Ford Transit resource list.
@@ -71,6 +127,14 @@ JSON only.
 with open('prompt.txt','w') as f:
     f.write(prompt)
 model_json={}
+
+def is_placeholder_text(s: str) -> bool:
+    if not s:
+        return True
+    s_clean = (s or '').strip()
+    if looks_like_cloudflare(s_clean):
+        return True
+    return s_clean.lower().startswith('just a moment')
 
 def _call_model_via_curl(prompt_text: str) -> str:
     """Call GitHub Models chat/completions via curl and return the content string.
@@ -200,6 +264,11 @@ appropriate=field('appropriate')
 if not (title and description and category):
     html=fetch_html(url)
     meta_title, meta_desc = meta_from_html(html)
+    # Guard against Cloudflare placeholders
+    if is_placeholder_text(meta_title):
+        meta_title = ''
+    if is_placeholder_text(meta_desc):
+        meta_desc = ''
     clean_snippet = snippet
     # Prefer meta
     if not title: title = meta_title or ''
@@ -212,6 +281,26 @@ if not (title and description and category):
         category = categorize(url, title, html or clean_snippet)
     if not appropriate:
         s = (url + ' ' + title + ' ' + (html or clean_snippet)).lower()
+        appropriate = 'true' if ('ford' in s and 'transit' in s) else 'true'
+
+# --- Final guardrails: if blocked/interstitial, avoid placeholder output ---
+blocked = is_placeholder_text(title) or is_placeholder_text(description)
+if blocked:
+    # Prefer user-provided manual description; otherwise leave empty and mark inappropriate
+    if manual_desc and manual_desc.lower() not in {'_no response_', 'no response'}:
+        description = clamp(manual_desc, 160)
+    else:
+        description = ''
+    title = ''
+    # Keep category as a safe default bucket
+    if not category:
+        category = 'Resources'
+    appropriate = 'false'
+else:
+    # Normalize appropriate flag to string 'true'/'false'
+    if str(appropriate).lower() not in {'true','false'}:
+        # Default: true when looks relevant
+        s = (url + ' ' + title + ' ' + (snippet or '')).lower()
         appropriate = 'true' if ('ford' in s and 'transit' in s) else 'true'
 
 # Final single-line sanitize for outputs
