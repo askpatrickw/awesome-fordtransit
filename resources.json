@@ -1021,6 +1021,14 @@
           "approved": true
         },
         {
+          "title": "Ford Transit Parts Online",
+          "url": "https://www.carid.com/ford-transit-parts/?msockid=2fa50331ae466eaf1afb1687afbe6fde",
+          "description": "Ford factory parts and accessories for your Transit",
+          "added": "2025-08-27",
+          "sourceIssue": 104,
+          "approved": true
+        },
+        {
           "title": "Forscan",
           "url": "https://forscan.org/",
           "description": "FORScan is an ODB-ii software scanner for Ford (and other makes) of vehicles which lets you customize your van's computer configuration.",
@@ -1032,14 +1040,6 @@
           "title": "Heritage Marine Electrical (Everett, WA) dba Energized Boat",
           "url": "https://www.energizedboat.com/",
           "description": "Great people and prices in the Puget Sound Area. Ask for Paul and tell him Patrick sent you.",
-          "added": "2025-08-07",
-          "sourceIssue": null,
-          "approved": true
-        },
-        {
-          "title": "Van Parts Warehouse by FeeedomGo",
-          "url": "https://vanpartswarehouse.com/pages/transit-all-categories",
-          "description": "",
           "added": "2025-08-07",
           "sourceIssue": null,
           "approved": true
@@ -1112,6 +1112,14 @@
           "title": "Van Essentials",
           "url": "https://www.vanessential.com/",
           "description": "Interior window covers.",
+          "added": "2025-08-07",
+          "sourceIssue": null,
+          "approved": true
+        },
+        {
+          "title": "Van Parts Warehouse by FeeedomGo",
+          "url": "https://vanpartswarehouse.com/pages/transit-all-categories",
+          "description": "",
           "added": "2025-08-07",
           "sourceIssue": null,
           "approved": true
