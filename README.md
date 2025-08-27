@@ -188,9 +188,9 @@ Please follow the [contributing guide](contributing.md) and
 - [Campervan-HQ](https://www.campervan-hq.com/pages/search-results?q=Transit&)  Many Transit specific products from various manufacturers
 - [CR Laurence](https://www.crlaurence.com)  Windows for your van build (Use the search)
 - [DIY Van](https://diyvan.com/collections/transit)  run by Hein, DIY Van has several great products such as roof adapters for Maxxfans, Thinsulate, etc.. [Hein is also very active on Ford Transit USA Forum](https://www.fordtransitusaforum.com/members/hein.6394/).
+- [Ford Transit Parts Online](https://www.carid.com/ford-transit-parts/?msockid=2fa50331ae466eaf1afb1687afbe6fde)  Ford factory parts and accessories for your Transit
 - [Forscan](https://forscan.org/)  FORScan is an ODB-ii software scanner for Ford (and other makes) of vehicles which lets you customize your van's computer configuration.
 - [Heritage Marine Electrical (Everett, WA) dba Energized Boat](https://www.energizedboat.com/)  Great people and prices in the Puget Sound Area. Ask for Paul and tell him Patrick sent you.
-- [Van Parts Warehouse by FeeedomGo](https://vanpartswarehouse.com/pages/transit-all-categories)
 - [Luno](https://lunolife.com/)  Among the Transit specific products Luno makes a front seat inflatable mattress and front door screens as well as many other van accessories.
 - [Overland Gear Guy](https://overlandgearguy.com/collections/ford-transit-van)  Window screens and many different Transit specific storage bags
 - [Owl Vans](https://owlvans.com/collections/ford-transit)  Several Transit specific items including lifts, wheels, racks, and the Pismo bumper
@@ -200,6 +200,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Tern Overland](https://www.ternoverland.com/)  Windows, roof hatches, doors and other components for van builds.
 - [Thunderbolt Deadbolts](https://www.thunderboltlocks.com/ford-transit)  add deadbolts to your cab, slider and rear doors.
 - [Van Essentials](https://www.vanessential.com/)  Interior window covers.
+- [Van Parts Warehouse by FeeedomGo](https://vanpartswarehouse.com/pages/transit-all-categories)
 - [Van Upgrades including suspension components](https://vanupgrades.com)  Many accessories and components
 - [Vanlife Outfitters](https://www.vanlifeoutfitters.com/)
 - [Vanmade Gear](https://vanmadegear.com/)  Interior window covers.
