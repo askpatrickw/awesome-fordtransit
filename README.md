@@ -69,6 +69,7 @@ Please follow the [contributing guide](contributing.md) and
 - [Fiamma Awnings](https://www.fiammausa.com/en/van-conversion)  One of the most popular awning options
 - [Flarespace](https://flarespace.com/)  increase interior space by adding "bump outs"
 - [Flatline Van Co](https://flatlinevanco.com/collections/transit)  Racks, ladders, prebuilt cabinets
+- [FreedomVanGo Store](https://vanpartswarehouse.com/)  FreedomVanGo parts, accessories, and more. Suppliers include FreedomVanGo, Owl Vans, Van Compass and more.
 - [Koolands](https://koolands.com/search?q=Transit&options%5Bprefix%5D=last)  a few transit specific products, but also rear boxes
 - [Lamin-X](https://lamin-x.com/search-magic.html#query=all&filter_auto-moto.filter=Automotive&filter_year.filter=2022&filter_make.filter=Ford&filter_Model.filter=Transit%20Van&sort_method=selling_price.filter/asc)  Protective film for headlights, taillights, and fog lights
 - [Lazer Lamps](https://www.triple-r-lights.com/ford-transit-2015-grille-kit.html)  Grille light kits for Ford Transit

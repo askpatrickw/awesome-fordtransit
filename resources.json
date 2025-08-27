@@ -239,6 +239,14 @@
           "approved": true
         },
         {
+          "title": "FreedomVanGo Store",
+          "url": "https://vanpartswarehouse.com/",
+          "description": "FreedomVanGo parts, accessories, and more. Suppliers include FreedomVanGo, Owl Vans, Van Compass and more.",
+          "added": "2025-08-27",
+          "sourceIssue": 107,
+          "approved": true
+        },
+        {
           "title": "Koolands",
           "url": "https://koolands.com/search?q=Transit&options%5Bprefix%5D=last",
           "description": "a few transit specific products, but also rear boxes",
